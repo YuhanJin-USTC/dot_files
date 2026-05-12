@@ -1162,3 +1162,5 @@ cd ..
 nvim
 git_update ~/scripts "Update backup with fix symlink dereferencing"
 ll
+git_update ~/dot_files "Update git_update config & cluster2windows"
+cd ~/dot_files<\n># 强制覆盖远程仓库，把那些 delete 操作真正同步到 GitHub 网页端<\n>git push -u origin main -f
