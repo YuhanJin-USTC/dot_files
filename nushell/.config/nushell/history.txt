@@ -1164,3 +1164,54 @@ git_update ~/scripts "Update backup with fix symlink dereferencing"
 ll
 git_update ~/dot_files "Update git_update config & cluster2windows"
 cd ~/dot_files<\n># 强制覆盖远程仓库，把那些 delete 操作真正同步到 GitHub 网页端<\n>git push -u origin main -f
+git_update ~/dot_files "Update git_update config & cluster2windows"
+ll
+cd
+ll
+restore
+restore.sh
+sudo bash ./restore.sh
+tree
+nvim
+cd scripts/backup_archlinux
+sudo bash ./restore.sh
+ll
+cd
+ll
+cd .ssh
+ll
+cd 
+cd ~/dot_files
+ll
+cd ssh
+ll
+cd .ssh
+ll
+rm -rf test
+cd
+cd ../..
+cd home/yuhanjin/dot_files/
+stow -R ssh
+ll
+cd 
+cd .ssh
+ll
+ls -la ~/.ssh
+rm -rf test/
+cd 
+nvim
+sudo bash ./restore.sh
+cd scripts/backup_archlinux/
+sudo bash ./restore.sh
+nvim
+sudo bash ./restore.sh
+cd .ssh
+cd ~/.ssh
+ll
+cd
+nvim
+cd .ssh
+rm -rf test/
+ll
+cd ..
+backup_archlinux
