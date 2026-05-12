@@ -1083,3 +1083,82 @@ git remote add origin git@github.com:YuhanJin-USTC/dot_files.git
 cd 
 backup_archlinux
 git_sync ~/scripts "Update backup data and add git_sync script"
+git_sync ~/dot_files "Initial clean backup"
+cd ~/dot_files<\n>git push -u origin main -f
+cd ~/dot_files<\n># 查看一下文件是否还在<\n>ls -l ssh/.ssh/id_github<\n><\n># 如果还在，直接物理删除它们（反正你已经执行过备份，且 ~/.ssh 下应该也有备份）<\n>rm -f ssh/.ssh/id_github ssh/.ssh/id_hf ssh/.ssh/id_ty ssh/.ssh/id_wz ssh/.ssh/known_hosts*
+cd 
+cd ~/scripts/backup_archlinux
+sudo ./restore.sh
+restore
+restore.sh
+# 1. 给脚本添加可执行权限<\n>chmod +x restore.sh<\n><\n># 2. 明确指定用 bash 运行（防止路径解释器报错）<\n>sudo bash ./restore.sh
+tsf_clst_key
+ssh tycluster
+ls -l ~/scripts/backup_archlinux/data/secure_data.tar.gz.gpg
+cd ~/scripts/backup_archlinux<\n># 确保脚本有执行权限<\n>chmod +x restore.sh<\n># 使用 bash 运行<\n>sudo ./restore.sh
+cd ~/scripts/backup_archlinux/data/<\n># 手动解密并解压到当前目录<\n>gpg -d secure_data.tar.gz.gpg | tar xzvf -
+# 进入数据目录<\n>cd ~/scripts/backup_archlinux/data/<\n><\n># 查看加密包里的文件列表 (会提示输入密码)<\n>gpg --decrypt secure_data.tar.gz.gpg | tar -tvz
+# 生成密钥，-C 后面填你的 GitHub 邮箱（或者随便起个名，仅作标识）<\n>ssh-keygen -t github -C "jinyuhan@mail.ustc.edu.cn"
+cd 
+ssh tycluster
+ssh hfcluster
+ssh wzcluster
+ssh-keygen -t ed25519 -C "jinyuhan@mail.ustc.edu.cn" -f ~/.ssh/id_github
+cat ~/.ssh/id_github.pub
+ssh -T git@github.com
+cd ~/dot_files
+stow -D ssh
+mkdir test
+rm -rf test
+cd ssh/.ssh/
+mkdir test
+nvim
+ll
+cd ../../
+stow  ssh
+nivm
+mkdir -p ~/.ssh
+mkdir ~/.ssh
+mv ~/dot_files/ssh/.ssh/id_* ~/.ssh/
+mv ~/dot_files/ssh/.ssh/known_hosts* ~/.ssh/
+stow -D ssh
+nvim
+ll
+mkdir ~/.ssh
+mv ~/dot_files/ssh/.ssh/id_* ~/.ssh/
+mv ~/dot_files/ssh/.ssh/known_hosts* ~/.ssh/
+ls -la ~/.ssh
+nvim
+ll
+cd 
+ll
+chmod 700 ~/.ssh<\n>chmod 600 ~/.ssh/id_*
+cd ~/dot_files<\n># 这时候 stow 只会发现 config，并把 config 链接进 ~/.ssh<\n>stow ssh
+ll
+cd 
+ll
+nvim
+ls -la ~/.ssh
+cd ~/dot_files
+git status
+cd
+nvim
+backup_archlinux
+cd ~/scripts/backup_archlinux/data/
+gpg --decrypt secure_data.tar.gz.gpg | tar -tvz
+cd
+cd scripts
+mkdir git_update
+cd git_update/
+cd ..
+ll
+cd git_update/
+cp ../sync_file/git_sync.nu
+cp ../sync_file/git_sync.nu .
+cd ../sync_file/
+rm git_sync.nu
+cd===cd ..
+cd ..
+nvim
+git_update ~/scripts "Update backup with fix symlink dereferencing"
+ll

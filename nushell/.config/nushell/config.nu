@@ -49,7 +49,7 @@ def local2cluster [] {
   rsync -arvm --delete --include="*/" --include=".keep" --exclude="log_dir/*" --include="*.py" --include="*.sh" --exclude="*" ~/cluster/ wzcluster:/work/home/yuhanjin/usr/
 }
 
-alias git_sync = nu ~/scripts/sync_file/git_sync.nu 
+alias git_update = nu ~/scripts/git_update/git_sync.nu 
 
 alias sync_file = nu ~/scripts/sync_file/sync_files.nu
 
