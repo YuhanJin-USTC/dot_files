@@ -1075,3 +1075,6 @@ backup_archlinux
 git_sync ~/dot_files "Update the git_sync config & cluster2windows config"
 cd ~/dot_files<\n># 删除旧的 Git 记录（放心，这不会删掉你的配置文件，只删掉历史记录）<\n>rm -rf .git
 nvim
+git init<\n># 确保你的 .gitignore 已经包含了屏蔽规则<\n># 如果不确定，再运行一次下面这行：<\n>echo "ssh/.ssh/id_*" >> .gitignore<\n>echo "ssh/.ssh/known_hosts*" >> .gitignore<\n><\n>git add .<\n>git commit -m "Initial clean backup"
+git remote add origin git@github.com:YuhanJin-USTC/dot_files.git
+# 因为我们重建了历史，所以需要用 -f 强制推送<\n>git push -u origin main -f
