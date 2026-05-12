@@ -1,0 +1,1077 @@
+ll
+cd
+ll
+pwd
+nvim 
+nvim
+pacman -Q
+nvim
+l
+ls
+exit
+nvim 
+nvim
+ll
+cd temp
+ls
+cd
+ls
+ls -la
+cd temp/
+touch test
+nvim 
+nvim
+tonvim
+rm test
+ls
+cd ..
+nvim
+tonvim
+nvim
+nvim tutor
+rm test
+rm tutor
+ls
+nvim
+tonvim
+ls
+cd ..
+ls
+exit 
+cd .config/
+ls
+nvim
+exit
+nvim
+exit
+nvim
+ls
+exit
+nvim
+ls
+nivm
+nvim
+ls
+exit
+ls
+nvim
+ls
+cd backup_archlinux/
+ls
+cd pkg-lists/
+ls
+pacman -Qqen > pkglist-pacman.txt
+pacman -Qqen | save -f pkglist-pacman.txt
+pacman -Qqem | save -f pkglist-aur.txt
+ls
+cd ../../dot_files/
+ls
+git remote set-url origin https://github.com/YuhanJin-USTC/dot_files.git
+cd ../scripts/
+git remote set-url origin https://github.com/YuhanJin-USTC/scripts.git
+cd ~
+ls
+echo $env.SHELL | save -f ~/scripts/backup_archlinux/data/default_shell.txt
+mkdir ~/temp_sys_config
+mkdir ~/temp_sys_config/etc
+sudo cp /etc/wsl.conf ~/temp_sys_config/etc/<\n>sudo cp /etc/locale.gen ~/temp_sys_config/etc/<\n>sudo cp /etc/pacman.conf ~/temp_sys_config/etc/
+cd ~/temp_sys_config<\n>tar -czf ~/scripts/backup_archlinux/data/sys_config.tar.gz etc
+rm -rf ~/temp_sys_config
+ls
+ls ..
+rm -rf ~/temp_sys_config
+cd ..
+rm -rf ~/temp_sys_config
+ls
+cd scripts/
+ls
+cd ..
+ls
+cd dot_files/
+git add .<\n>git commit -m "feat: manual environment backup"<\n>git push -u origin main
+ls
+nvim
+ls -la
+exit
+ls
+ls -la
+cp -rf /mnt/c/Users/17865/Desktop/Code_Program/
+cp -rf /mnt/c/Users/17865/Desktop/Code_Program/ .
+cp -rf /mnt/c/Users/17865/Desktop/Source_Code/ .
+cp -rf /mnt/c/Users/17865/Desktop/Simulation/ .
+rm -rf /mnt/c/Users/17865/Desktop/Code_Program/
+rm -rf /mnt/c/Users/17865/Desktop/Source_Code/
+rm -rf /mnt/c/Users/17865/Desktop/Simulation/
+ls
+ls -la
+cd Simulation/
+nvim
+exit
+ls -la
+cd Simulation/
+ls
+nvim
+ls
+rm -rf 3.21/
+cd 2026/2026.3/
+ls
+cd 3.2
+ls
+cd ../
+ls
+mkdir 3.21
+cd 3.21
+mkdir test_smilei_epoch
+ls
+cd ../
+mkdir 3.22
+cd 3.22
+mkdir smilei_test_3D_interpolator
+mkdir test_smilei_epoch
+ls
+cd ../
+rm -rf 3.21
+ls
+cd ..
+cd 2026.3/
+nvim
+cd ..
+nvim
+exit
+ls
+cd Simulation/
+ls
+nvim
+tree
+cd 
+cd Simulation/
+nvim
+exit
+nvim
+exit
+cd Simulation/
+ls
+tree
+cd 2026/2026.3/3.22/
+ls
+rm -rf test_smilei_epoch/
+ls
+cd ..
+mkdir 3.23/test_smilei_epoch
+cd 3.23/test_smilei_epoch/
+cd ..
+nvim
+cd 3.23/test_smilei_epoch/
+ls
+cp /mnt/c/Users/17865/Desktop/smilei_cutter.py .
+ls
+touch smilei_cutter.deck
+ls
+cd Simulation/2026/2026.3/3.23/test_smilei_epoch/
+cd Simulation/2026/2026.3/3.18/epoch_test_window/
+nvim
+cd ..
+ls
+cd Simulation/2026/2026.3/
+nvim
+ls
+cd 3.22
+ls
+cd smilei_test_3D_interpolator/
+ls
+rm input.py
+cp /mnt/d/Download/Edge/input.py .
+ls
+nvim
+nvim
+ls
+cd ..
+ls
+cd ..
+ls
+tree
+ext
+exit
+exit
+cd Simulation/
+cd 2026/2026.3/
+nvim
+:
+exit
+cd Simulation/2026/2026.3/
+ls
+mkdir 3.27
+cd 3.287
+cd 3.27/
+mkdir epoch_reproduce_YS 
+cd epoch_reproduce_YS/
+cp /mnt/c/Users/17865/Desktop/input.deck .
+mv input.deck input_raw.deck
+ls
+cd Simulation/2026/2026.3/3.27/epoch_reproduce_YS/
+nvim
+cd ../..
+nvim
+ls
+rm -rf 3.23
+ls
+cd 3.18
+ls
+mv epoch_test_window epoch_test_window_outfolw
+mv epoch_test_window_outfolw epoch_test_window_outflow
+ls
+rm epoch_test_window_outflow/
+ls
+cd epoch_test_window_outflow/
+rm input.deck
+ls
+cp /mnt/d/Download/Edge/input.deck .
+ls
+cd ../..
+ls
+mkdir 3.24
+cd 3.24
+mkdir epoch_test_windows_open
+cd epoch_test_windows_open/
+cp 
+cp /mnt/d/Download/Edge/input.deck .
+ls
+cd ../../3.27
+cd epoch_reproduce_YS/
+cp ../../3.18/epoch_test_window_outflow/input.deck .
+ls
+nvim
+cd ..
+mv epoch_reproduce_YS epoch_reproduce_YS_laser
+cd epoch_reproduce_YS_laser/
+cd ..
+mkdir epoch_reproduce_YS
+ls
+cd epoch_reproduce_YS/
+cp ../epoch_reproduce_YS_laser/input.deck .
+cp ../epoch_reproduce_YS_laser/input_raw.deck .
+ls
+nvim
+exit
+nvim
+exit
+cd Simulation/2026/2026.3/
+nvim
+:q
+exit
+nvim
+exit
+cd Simulation/
+cd 2026/2026.3/nvim
+cd Simulation/2026/2026.3/
+nvim
+nivm
+cd Simulation/2026/2026.3/nvim
+nvim
+cd Simulation/2026/2026.3/
+nvim
+ls
+tree
+cd ../..
+ls
+ls -la
+tree
+ls
+nvim
+exit
+cd Simulation/2026/2026.3/nvim
+cd Simulation/2026/2026.3
+cd Simulation/2026/2026.3/
+nvim
+mkdir 
+mkdir 3.28
+cd 3.28
+mkdir epoch_reproduce_YS_2
+nvim
+ls
+cd epoch_reproduce_YS_2/
+ls
+cp ../../3.27/epoch_reproduce_YS/input.deck .
+cd ..
+nvim
+nivm
+cd Simulation/2026/2026.3/
+nvim
+cd 3.28/
+mkdir test_epoch_field
+cd test_epoch_field/
+cp ../../3.18/epoch_test_window_outflow/input.deck .
+nvim
+nvim
+nivm
+nvim
+cd ..
+ls
+mv epoch_reproduce_YS_2 epoch_reproduce_YS_100nc
+ls
+cd epoch_reproduce_YS_100nc/
+ls
+cd ..
+mkdir epoch_reproduce_YS_500nc
+cd epoch_reproduce_YS_500nc/
+cp ../epoch_reproduce_YS_100nc/input.deck
+cp ../epoch_reproduce_YS_100nc/input.deck .
+ls
+nvim
+cp ../epoch_reproduce_YS_100nc/input.deck .
+nivm
+nvim
+exit
+cd Simulation/2026/2026.3/3.28
+cd Source_Code/
+ls
+cd Epoch/
+ls
+cd epoch/
+ls
+cd ~
+CD Code_Program/
+LS
+cd Code_Program/
+ls
+cd Epoch/
+ls
+cd ..
+ls -la
+cd ~
+nvim
+:q
+cd epoch_reproduce_YS_100nc/
+ls
+rm input.deck
+cp /mnt/d/Download/Edge/input.deck .
+cd ../epoch_reproduce_YS_500nc/
+rm input.deck
+cp `/mnt/d/Download/Edge/input (1).deck` . 
+ls
+mv input (1).deck input.deck
+ls
+cd ..
+cd epoch_reproduce_YS_500nc/
+ls
+nivm
+ld
+ls
+cd Simulation/2026/2026.3
+mkdir 3.30
+cd 3.30
+ls
+mkdir epoch_reproduce_YS_100nc_sin
+mkdir epoch_reproduce_YS_500nc_sin
+ls
+cd epoch_reproduce_YS_100nc_sin/
+ls
+cp ../../3.28/epoch_reproduce_YS_100nc/input.deck .
+cd Simulation/2026/2026.3/nvim
+cd Simulation/2026/2026.3
+nivm
+nvim
+cd ../epoch_reproduce_YS_500nc_sin/
+ls
+cp ../epoch_reproduce_YS_100nc_sin/input.deck .
+nvim
+nvim
+exit
+ls -la
+cd ..
+la -la
+ls -la
+tree
+mkdir 2026.4
+ls
+nvim
+exit
+cd Simulation/2026/2026.3/
+nvim
+exit
+nvim
+exit
+cd Simulation/2026/2026.3/
+nvim
+nivm
+cd Simulation/2026/2026.4/
+mkdir 4.1
+cd 4.1/
+mkdir epoch_test_flying_focus
+cd epoch_test_flying_focus/
+ls
+cp ../../../2026.3/3.18/epoch_test_window_outflow/input.deck .
+nivm
+nvim
+nvim
+exit
+exit
+cd Source_Code/
+ls
+cd Epoch/
+ls
+cd epoch/
+ls
+nvimn
+nvim
+ls -la
+cd Simulation/2026/2026.4/4.1/epoch_test_flying_focus/
+nvim
+ls
+cd ..
+tree
+nviom
+cd Simulation/2026/2026.4/4.1/epoch_test_flying_focus/
+cp ../../../2026.3/3.1/test_epoch/epoch3d/epoch3d_run.sh .
+epoch3d_run.sh input.deck
+bash epoch3d_run.sh input.deck
+nvim
+bash epoch3d_run.sh input.deck
+nvim
+nvim
+ls
+cd 2026.4/4.1/epoch_test_flying_focus/
+ls
+cd Results_input_20260403_145654
+ls
+ls -ls
+ls -la
+ls
+nivm
+nvim
+ls
+bash epoch3d_run.sh input.deck
+nvim
+cd ..
+ls
+cd Results_input_20260403_152755/
+ls
+nivm
+bash epoch3d_run.sh input.deck
+nvim
+cd ..
+bash epoch3d_run.sh input.deck
+nvim
+bash epoch3d_run.sh input.deck
+bash epoch3d_run.sh input.deck
+nvim
+exit
+exit
+cd Simulation/2026/2026.4
+nvim
+exit
+cd Simulation/2026/
+nvim
+cd 2026.4
+mkdir 4.4
+cd 4.4/
+mkdir epoch_2021_YS_add_flying_focus
+ls
+cd epoch_2021_YS_add_flying_focus/
+cp ../../../2026.3/3.28/epoch_reproduce_YS_100nc/input.deck .
+nivm
+cd S
+cd Simulation/2026
+nvim
+ls
+cd ..
+mv epoch_2021_YS_add_flying_focus epoch_2021_YS_add_FF_1p1c
+ls
+mkdir epoch_2021_YS_add_FF_2c
+ls
+cd epoch_2021_YS_add_FF_2c/
+cp ../epoch_2021_YS_add_FF_1p1c/input.deck .
+nivm
+nvim
+cd ../epoch_2021_YS_add_FF_1p1c/
+ls
+rm input.deck
+cp ../epoch_2021_YS_add_FF_2c/input.deck .
+nvim
+cd ~
+ls
+cd Code_Program/
+ls
+cd Epoch/
+cd Epoch3d/
+ls
+nvim
+cd ~/Source_Code/Epoch/epoch/
+nvim
+nvim
+cd ~/Code_Program/Epoch/Epoch2d/
+bash build.sh
+ls
+bash build.sh
+cd ../Epoch1d/
+ls
+bash build.sh
+ls
+cd ~/Simulation/2026/2026.4/
+nvim
+cd ~/Simulation/2026/2026.4/4.4/
+ls
+mkdir epoch_2021_YS_add_FF_0p9c
+ls
+cd epoch_2021_YS_add_FF_0p9c/
+cp ../epoch_2021_YS_add_FF_1p1c/input.deck .
+ls
+nvim
+nivm
+nvim
+cd ..
+cd
+ls
+cd Simulation/2026/2026.4/
+nvim
+nivm
+nvim
+nvim
+cd 4.4/epoch_2021_YS_FF_2c/ls
+cd 4.4/epoch_2021_YS_FF_2c
+ls
+cp ../epoch_2021_YS_FF_1p1c/input.deck .
+nvim
+nivm
+nvim
+cd Simulation/2026/2026.4/
+mkdir 4.6
+cd 4.6/
+mkdir epoch_reproduce_YS_500nc_sin_id
+cd epoch_reproduce_YS_500nc_sin_id/
+nvim
+cd ..
+mkdir epoch_2021_YS_FF_0p5c
+mkdir epoch_2021_YS_FF_5c
+cd epoch_2021_YS_FF_5c/
+cp ../../4.4/epoch_2021_YS_FF_2c/input.deck .
+cd ../epoch_2021_YS_FF_0p5c/
+cp ../../4.4/epoch_2021_YS_FF_0p9c/input.deck .
+nivm
+nvim
+cd ../epoch_reproduce_YS_500nc_sin_id/
+ls
+cp ../epoch_2021_YS_FF_0p5c/input.deck .
+nvim
+exit
+cd Simulation/2026/2026.4/
+mkdir 4.7
+cd 4.7/
+mkdir epoch_2021_YS_FF_0p2c
+mkdir epoch_2021_YS_FF_10c
+cd epoch_2021_YS_FF_0p2c/
+cp /mnt/d/Download/Edge/input.deck 。
+ls
+cp /mnt/d/Download/Edge/input.deck .
+ls
+rm 。
+ls
+nvim
+cd ..
+cd epoch_2021_YS_FF_10c/
+cp /mnt/d/Download/Edge/input.deck .
+ls
+nvim
+cd ..
+mkdir test_FF_energy_1p1c
+mkdir test_FF_energy_0c
+cd test_FF_energy_1p1c/
+cp ../../4.1/epoch_test_flying_focus/input.deck .
+cd ../test_FF_energy_0c/
+cp ../test_FF_energy_1p1c/input.deck .
+nivm
+nvim
+rm input.deck
+cp ../test_FF_energy_1p1c/input.deck .
+nvim
+rm input.deck
+nvim
+cd ../test_FF_energy_1p1c/
+ls
+nvim
+cd ../test_FF_energy_0c/
+nvim
+cp ../test_FF_energy_1p1c/input.deck .
+nvim
+cp ../../4.1/epoch_test_flying_focus/epoch3d_run.sh .
+bash epoch3d_run.sh
+bash epoch3d_run.sh input.deck
+nvim
+bash epoch3d_run.sh input.deck
+nvim
+cd ..
+mkdir test_FF_energy_0p9c
+mkdir test_FF_energy_2c
+mkdir test_FF_energy_5c
+mkdir test_FF_energy_0p5c
+mkdir test_FF_energy_0p2c
+mkdir test_FF_energy_10c
+ls
+ll
+cd epoch_2021_YS_FF_0p2c/
+cp ../test_FF_energy_1p1c/input.deck .
+nvim
+cd ../epoch_2021_YS_FF_10c/
+ll
+cd ..
+ll
+rm -rf epoch_2021_YS_FF_0p2c/
+rm -rf epoch_2021_YS_FF_10c/
+l
+ll
+tree
+cd test_FF_energy_0c/
+ll
+rm -rf Results_input_20260407_130529/
+rm -rf Results_input_20260407_130624/
+rm epoch3d_run.sh
+nvim
+cd ../test_FF_energy_0p2c/
+cp ../test_FF_energy_0c/input.deck .
+cd ../test_FF_energy_0p5c/
+cp ../test_FF_energy_0c/input.deck .
+cd ../test_FF_energy_0p9c/
+cp ../test_FF_energy_0c/input.deck .]
+cp ../test_FF_energy_10c/
+cd ../test_FF_energy_10c/
+cp ../test_FF_energy_0c/input.deck .
+cd ../test_FF_energy_1p1c/
+cp ../test_FF_energy_0c/input.deck .
+cd ../test_FF_energy_2c/
+cp ../test_FF_energy_0c/input.deck .
+cd ../test_FF_energy_5c/
+cp ../test_FF_energy_0c/input.deck .
+cd ..
+nvim
+tre
+tree
+cd test_FF_energy_0p9c/
+rm `.]`
+cp ../test_FF_energy_0p5c/input.deck .
+cd .
+cd ..
+nvim
+mkdir epoch_2021_YS_FF
+cd epoch_2021_YS_FF/
+mkdir 0c
+mkdir 0p9c
+mkdir 1p1c
+mkdir 2c
+ll
+rm -rf 0c/
+cd 0p9c/
+cp ../../../4.4/epoch_2021_YS_FF_0p9c/input.deck .
+cd ../1p1c/
+cp ../../../4.4/epoch_2021_YS_FF_1p1c/input.deck .
+cd ../2c/
+cp ../../../4.4/epoch_2021_YS_FF_2c/input.deck .
+cd ..
+nvim
+cd test_FF_energy_0p2c/
+rm input.deck
+cp ../test_FF_energy_0c/input.deck .
+cd ../test_FF_energy_0p5c/
+cp ../test_FF_energy_0c/input.deck .
+nvim
+cd ../test_FF_energy_0p9c/
+cp ../test_FF_energy_0c/input.deck .
+cd ../test_FF_energy_10c/
+cp ../test_FF_energy_0c/input.deck .
+cd ../test_FF_energy_2c/
+cp ../test_FF_energy_0c/input.deck .
+cd ../test_FF_energy_5c/
+cp ../test_FF_energy_0c/input.deck .
+cd ..
+nvim
+ll
+cd -rf epoch_2021_YS_FF/
+rm -rf epoch_2021_YS_FF/
+ls
+ll
+l
+ll
+cd ..
+nvim
+ll
+cd 4.7
+ll
+cd test_FF_energy_0c/
+cp ../test_FF_energy_1p1c/input.deck .
+ll
+nvim
+cd ../test_FF_energy_0p2c/
+cp ../test_FF_energy_0c/input.deck .
+cd ../test_FF_energy_0p5c/
+cp ../test_FF_energy_0c/input.deck .
+cd ../test_FF_energy_0p9c/
+cp ../test_FF_energy_0c/input.deck .
+cd ../test_FF_energy_10c/
+cp ../test_FF_energy_0c/input.deck .
+cd ../test_FF_energy_2c/
+cp ../test_FF_energy_0c/input.deck .
+cd ../test_FF_energy_5c/
+cp ../test_FF_energy_0c/input.deck .
+cd ..
+nvim
+mkdir epoch_2021_YS_FF
+cd epoch_2021_YS_FF/
+mkdir 0p9c
+mkdir 1p1c
+mkdir 2c
+cd 0p9c/
+cp ../../../4.6/epoch_2021_YS_FF_0p5c/input.deck .
+nvim
+la
+ls -ll
+ll
+la
+ll
+ls -la
+ll
+cd 
+ll
+cd Simulation/2026/2026.4/4.7/epoch_2021_YS_FF/
+nvim
+cd 1p1c/
+cp ../0p9c/input.deck .
+cd ../2c/
+cp ../0p9c/input.deck .
+cd ..
+nvim
+ll
+nvim
+exit
+cd Simulation/2026/2026.4/4.7/epoch_2021_YS_FF/
+mkdir 1p2c
+mkdir 0p8c
+cd 1p2c/
+cp ../1p1c/input.deck .
+cd ../0p8c/
+cp ../1p1c/input.deck .
+cd ..
+nvim
+cd 
+ll
+nvim
+:q
+ll
+l
+ll
+nvim
+sync to HF cluster
+nvim
+local2cluster
+ll
+exit
+cd Simulation/2026/2026.4/4.7/
+nvim
+cd Simulation/2026/2026.4/
+ll
+mkdir 4.10
+tree
+cd 4.10/
+mkdir test_FF_phase
+cd test_FF_phase/
+mkdir 0c
+mkdir 0p8c
+mkdir 0p9c
+mkdir 0p95c
+mkdir 1p05c
+mkdir 1p1c
+mkdir 1p2c
+mkdir 2c
+mkdir 5c
+cd 0c/
+cp ../../../4.7/epoch_2021_YS_FF/0p8c/input.deck .
+nvim
+cd ../0p8c/
+cp ../0c/input.deck .
+cd ../0p9c/
+cp ../0c/input.deck .
+cd ../0p95c/
+cp ../0c/input.deck .
+cd ../1p05c/
+cp ../0c/input.deck .
+cd ../1p1c/
+cp ../0c/input.deck .
+cd ../1p2c/
+cp ../0c/input.deck .
+cd ../2c/
+cp ../0c/input.deck .
+cd ../5c/
+cp ../0c/input.deck .
+cd ..
+nvim
+mkdir 0p005c
+cd 0p005c/
+cp ../0c/input.deck .
+nvim
+exit
+ll
+ls -la
+ll
+exit
+cd Simulation/2026/2026.4/4.10
+nvim
+exit
+cd Simulation/
+cd 2026/
+cd 2026.4/4.10/
+nivm
+cd Simulation/2026/2026.4/
+cd 4.10/test_FF_phase/
+mkdir 1p003c
+cd 1p003c/
+cp ../0c/input.deck 
+cp ../0c/input.deck .
+cd ..
+mkdir 0p997c
+cd 0p997c/
+cp ../0c/input.deck .
+cd ..
+mv 0p997c/ 0p97c
+mv 1p003c/ 1p03c
+ll
+nvim
+mv 1p002c/ 1p02c
+mv 1p02c/ 1p02c
+mv 1p03c/ 1p02c
+mv 0p97c/ 0p98c
+CD test_FF_phase/
+cd test_FF_phase/
+cd 0p98c/
+cp ../1p02c/input.deck .
+cd ..
+nvim
+cd Simulation/2026/2026.4/
+mkdir 4.14
+cd 4.14
+mkdir test_FF_phase_dt
+cd test_FF_phase_dt/
+mkdir 1.1c
+mkdir 1.2c
+cd ..
+mv test_FF_phase_dt/ test_FF_phase_new
+mv test_FF_phase_new/
+cd test_FF_phase_new/
+cd ..
+cd..
+cd ..
+rm -rf 4.14/
+cd 4.10
+cd Simulation/2026/2026.4/4.10/test_FF_phase/
+ll
+cd 0p98c/
+cp ../0c/input.deck .
+cd ../1p02c/
+cp ../0c/input.deck .
+nvim
+cd ..
+mkdir 4.14
+cd 4.134
+cd 4.14
+mkdir test_FF_grid
+cd test_FF_grid/
+ll
+mkdir 1p05c
+rm -rf 1p05c/
+mkdir 32
+mkdir 48
+mkdir 24
+cd 32
+cp ../../../4.10/test_FF_phase/1p05c/input.deck .
+cd ..
+cd 48
+cp ../32/input.deck .
+cd ../48/
+cp ../32/input.deck .
+cd ../4.14/test_FF_grid/
+cd ..24
+cd ../24/
+cp ../32/input.deck .
+nvim
+cd Simulation/2026/2026.4/4.14/
+nvimn
+ll
+tonvim
+cd Simulation/2026/2026.3/
+nvim
+screenfetch
+pacman -S screenfetch
+sudo pacman -S screenfecth
+sudo pacman -S screenfetch
+cd
+ll
+nvim
+screenfetch
+exit
+cd Source_Code/Epoch/
+nvim
+:q
+nvim
+cd 
+cd Simulation/2026/2026.4
+ll
+mkdir 4.29
+cd 4.29
+cd Simulation/2026/2026.4/
+mkdir epoch_2021_YS_FF_1p05c_move_pre_plasma
+cd epoch_2021_YS_FF_1p05c_move_pre_plasma/
+cp ../../4.7/epoch_2021_YS_FF/1p1c/input.deck .
+nvim
+cd 
+cd Source_Code/Epoch/epoch/
+nvim
+cd ../../Smilei/
+NVIM]
+nvim
+cd ..
+cd Smilei_Spin/
+nvim
+nvim
+cd Simulation/2026/2026.4/
+mkdir 4.30
+cd 4.30
+mkdir epoch_2021_YS_FF_0p95c_move_pro_plasma
+mv epoch_2021_YS_FF_0p95c_move_pro_plasma/ epoch_2021_YS_FF_0p95c_move_pre_plasma/
+mkdir epoch_2021_YS_FF_0c_move_pre_plasma
+cd epoch_2021_YS_FF_0c_move_pre_plasma/
+cp ../../4.29/epoch_2021_YS_FF_1p05c_move_pre_plasma/input.deck .
+cd ../epoch_2021_YS_FF_0c_move_pre_plasma/
+cp ../../4.29/epoch_2021_YS_FF_1p05c_move_pre_plasma/input.deck .
+cd ..
+nivm
+nvim
+cd epoch_2021_YS_FF_0p95c_move_pre_plasma/
+cp ../../4.29/epoch_2021_YS_FF_1p05c_move_pre_plasma/input.deck .
+nvim
+cd Source_Code/Epoch/epoch/
+nvim
+exit
+cd Simulation/2026/
+mkdir 2026.5
+cd 2026.5/
+mkdir 5.1
+mkdir 5.1/
+mkdir reproduce_2026_MRE_BW_2D
+rm -rf reproduce_2026_MRE_BW_2D/
+cd 5.1/
+mkdir reproduce_2026_MRE_NBW_2D
+cd reproduce_2026_MRE_NBW_2D/
+touch input.deck
+nvim
+rm input.deck
+cp ../../../2026.4/4.30/epoch_2021_YS_FF_0c_move_pre_plasma/input.deck .
+nvim
+exit
+cd Simulation/2026/2026.5/5.10/
+cd Simulation/2026/2026.5/5.10/reproduce_2026_MRE_NBW_2D/
+NVIM
+nvim
+nvim
+cd ..
+mv reproduce_2026_MRE_NBW_2D/ reproduce_2026_MRE_NBW_2D_morable
+ll
+cd Simulation/2026/2026.5/5.10/reproduce_2026_MRE_NBW_2D_morable/
+cd Simulation/2026/2026.5/5.10/reproduce_2026_MRE_NBW_2D_morable/
+nivm
+cd Source_Code/Epoch/epoch/
+nivm
+nvim
+cd Source_Code/Epoch/epoch/
+nvim
+nvim
+nvim
+exit
+exit
+ssh -version
+ssh --version
+ssh
+ssh-v
+ssh -v
+which ssh
+nvin
+nvim
+nivm
+# 在你当前的根目录下执行，查找所有包含旧用户名的文本文件<\n>grep -rnw '.' -e 'xuanwu' --exclude-dir={.git,.cache,temp}
+clear
+# 1. 替换同步脚本中的硬编码家目录<\n>sed -i 's/xuanwu/yuhanjin/g' ./scripts/sync_file/sync_files.nu<\n><\n># 2. 替换备份还原脚本中的目标用户名 (注意处理可能的软链接)<\n>sed -i 's/TARGET_USER="xuanwu"/TARGET_USER="yuhanjin"/g' ./scripts/backup_archlinux/restore.sh<\n>sed -i 's/TARGET_USER="xuanwu"/TARGET_USER="yuhanjin"/g' ./backup_archlinux/restore.sh<\n><\n># 3. 替换 SSH 配置文件中的登录用户名<\n>sed -i 's/User xuanwu/User yuhanjin/g' ./dot_files/ssh/.ssh/config<\n><\n># 4. 替换 Nushell 配置中的 sudo 执行用户<\n>sed -i 's/sudo -u xuanwu/sudo -u yuhanjin/g' ./dot_files/nushell/.config/nushell/config.nu<\n><\n># 5. 替换 Git 全局配置中的用户名和邮箱<\n>sed -i 's/name = xuanwu/name = yuhanjin/g' ./dot_files/git/.gitconfig<\n>sed -i 's/xuanw@mail.ustc.edu.cn/yuhanjin@mail.ustc.edu.cn/g' ./dot_files/git/.gitconfig
+grep -rnw '.' -e 'xuanwu' --exclude-dir={.git,.cache,temp,.local/share/nvim/lazy}
+git config --global user.name<\n>git config --global user.email
+git config -f ./dot_files/git/.gitconfig user.email "jinyuhan@mail.ustc.edu.cn"
+git config --global github.user "YuhanJin-USTC"
+git config -f ./dot_files/git/.gitconfig github.user "YuhanJin-USTC"
+git config --global --get user.name<\n>git config --global --get user.email<\n>git config --global --get github.user<\n>ssh -T git@github.com
+ssh-keygen -t ed25519 -C "jinyuhan@mail.ustc.edu.cn" -f ~/.ssh/id_github
+cat ~/.ssh/id_github.pub
+ssh -T git@github.com
+ssh -i ~/.ssh/id_github -T git@github.com
+ssh-keygen -t ed25519 -C "jinyuhan@mail.ustc.edu.cn" -f ~/.ssh/id_github
+cat ~/.ssh/id_github.pub
+ssh -T git@github.com
+cat ~/.ssh/config
+env | to text | grep -i xuanwu<\n>env | to text | grep -i /home/
+sed -i 's/MaxwellWx/YuhanJin-USTC/g' ./scripts/backup_archlinux/restore.sh<\n>sed -i 's/MaxwellWx/YuhanJin-USTC/g' ./backup_archlinux/restore.sh
+ssh-keygen -t ed25519 -f ~/.ssh/id_hf<\n>ssh-keygen -t ed25519 -f ~/.ssh/id_wz<\n>ssh-keygen -t ed25519 -f ~/.ssh/id_ty
+rm -f ~/.ssh/id_hf ~/.ssh/id_hf.pub ~/.ssh/id_wz ~/.ssh/id_wz.pub ~/.ssh/id_ty ~/.ssh/id_ty.pub
+tsf_clst_key
+ssh hfcluster
+ssh wzcluster
+ssh tycluster
+ssh hfcluster
+ssh wzcluster whoami
+ssh wzcluster
+ssh tycluster
+grep -rn "xuanwu" ./scripts/build_singularity_image
+grep -rn "xuanwu" ~
+cluster2windows tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.11/reproduce_2026_MRE_NBW_2D_morable/Results_input_20260511_192329 ey .sdf -n
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.11/reproduce_2026_MRE_NBW_2D_morable/Results_input_20260511_192329 ey .sdf -n
+ll
+ls -la
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.11/reproduce_2026_MRE_NBW_2D_morable/Results_input_20260511_192329 bz .sdf -n
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.11/reproduce_2026_MRE_NBW_2D_morable/Results_input_20260511_192329 /mnt/d/Doucment/bz bz .sdf -n
+ll
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.11/reproduce_2026_MRE_NBW_2D_morable/Results_input_20260511_192329 /mnt/d/Doucment bz .sdf -n
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.11/reproduce_2026_MRE_NBW_2D_morable/Results_input_20260511_192329/ /mnt/d/Doucment  .sdf -n
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.11/reproduce_2026_MRE_NBW_2D_morable /mnt/d/Document Results_ bz -n
+ll
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.11/reproduce_2026_MRE_NBW_2D_morable /mnt/d/Document Results_ bz -n
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.11/reproduce_2026_MRE_NBW_2D_morable /mnt/d/Document Results_ bz
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.11/reproduce_2026_MRE_NBW_2D_morable/Results_input_20260511_192329/ /mnt/d/Document/Matlab/simulation/2026/2026.5/5.12/reproduce_2026_MRE_NBW_2D_morable/Data/field/bz bz .sdf -n 
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.11/reproduce_2026_MRE_NBW_2D_morable/Results_input_20260511_192329/ /mnt/d/Document/Matlab/simulation/2026/2026.5/5.12/reproduce_2026_MRE_NBW_2D_morable/Data/field/bz bz .sdf
+nvim
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.11/reproduce_2026_MRE_NBW_2D_morable/Results_input_20260511_192329/ /mnt/d/Document/Matlab/simulation/2026/2026.5/5.12/reproduce_2026_MRE_NBW_2D_morable/Data/field/ey ey .sdf
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.11/reproduce_2026_MRE_NBW_2D_morable/Results_input_20260511_192329/ /mnt/d/Document/Matlab/simulation/2026/2026.5/5.12/reproduce_2026_MRE_NBW_2D_morable/Data/density/photon density_photon .sdf
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.11/reproduce_2026_MRE_NBW_2D_morable/Results_input_20260511_192329/ /mnt/d/Document/Matlab/simulation/2026/2026.5/5.12/reproduce_2026_MRE_NBW_2D_morable/Data/density/nbw_positron density_nbw_positron .sdf
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.11/reproduce_2026_MRE_NBW_2D_morable/Results_input_20260511_192329/ /mnt/d/Document/Matlab/simulation/2026/2026.5/5.12/reproduce_2026_MRE_NBW_2D_morable/Data/particle/nbw_positron nbw_positron .sdf
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.11/reproduce_2026_MRE_NBW_2D_morable/Results_input_20260511_192329/ /mnt/d/Document/Matlab/simulation/2026/2026.5/5.12/reproduce_2026_MRE_NBW_2D_morable/Data/particle/photon photon0056 .sdf -n
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.11/reproduce_2026_MRE_NBW_2D_morable/Results_input_20260511_192329/ /mnt/d/Document/Matlab/simulation/2026/2026.5/5.12/reproduce_2026_MRE_NBW_2D_morable/Data/particle/photon photon0056.sdf -n
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.11/reproduce_2026_MRE_NBW_2D_morable/Results_input_20260511_192329/ /mnt/d/Document/Matlab/simulation/2026/2026.5/5.12/reproduce_2026_MRE_NBW_2D_morable/Data/density/electron density_electron .sdf
+ls -la ~/.config/nushell/<\n>ls -la ~/.config/nvim/
+ls -la ~/.config/ | grep '^l'
+ll
+cd scripts
+ll
+cd sync_file 
+ll
+touch git_sync.nu
+nivm
+nvim
+nvim
+git_sync
+nvim
+source $nu.config-path
+ll
+git_sync ~/dot_files "Update the git_sync config"
+cd ~/dot_files<\n>git remote set-url origin git@github.com:YuhanJin-USTC/dot_files.git
+cd ~/scripts<\n>git remote set-url origin git@github.com:YuhanJin-USTC/scripts.git
+# 再次尝试同步<\n>git_sync ~/dot_files "Switch to SSH and backup config"
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.11/reproduce_2026_MRE_NBW_2D_morable/Results_input_20260511_192329/ /mnt/d/Document/Matlab/simulation/2026/2026.5/5.12/reproduce_2026_MRE_NBW_2D_morable/Data/particle/photon photon0056.sdf
+cd ~/dot_files<\n># 批量移除所有私钥和已知主机文件<\n>git rm --cached ssh/.ssh/id_github ssh/.ssh/id_hf ssh/.ssh/id_ty ssh/.ssh/id_wz ssh/.ssh/known_hosts ssh/.ssh/known_hosts.old
+# 进入目录<\n>cd ~/dot_files<\n><\n># 将以下规则写入 .gitignore<\n>cat <<EOF >> .gitignore<\n># Ignore all SSH private keys<\n>ssh/.ssh/id_*<\n># Ignore known_hosts files<\n>ssh/.ssh/known_hosts*<\n># But allow the public keys (optional, but safer to ignore)<\n>!ssh/.ssh/*.pub<\n>EOF
+git add .gitignore<\n># 使用 --amend 覆盖掉刚才那个含有私钥的提交<\n>git commit --amend --no-edit
+cd 
+backup_archlinux
+git_sync ~/dot_files "Update the git_sync config & cluster2windows config"
+cd ~/dot_files<\n># 删除旧的 Git 记录（放心，这不会删掉你的配置文件，只删掉历史记录）<\n>rm -rf .git
+nvim
