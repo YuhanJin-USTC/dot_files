@@ -1078,3 +1078,8 @@ nvim
 git init<\n># 确保你的 .gitignore 已经包含了屏蔽规则<\n># 如果不确定，再运行一次下面这行：<\n>echo "ssh/.ssh/id_*" >> .gitignore<\n>echo "ssh/.ssh/known_hosts*" >> .gitignore<\n><\n>git add .<\n>git commit -m "Initial clean backup"
 git remote add origin git@github.com:YuhanJin-USTC/dot_files.git
 # 因为我们重建了历史，所以需要用 -f 强制推送<\n>git push -u origin main -f
+# 1. 把所有文件添加到暂存区<\n>git add .<\n><\n># 2. 提交到本地仓库（这一步非常重要，有了提交才会有分支）<\n>git commit -m "Initial clean backup"<\n><\n># 3. 强制把当前分支命名为 main (防止有些系统默认叫 master)<\n>git branch -M main<\n><\n># 4. 现在再执行强制推送<\n>git push -u origin main -f
+# 确保目标文件夹存在<\n>mkdir -p ~/.ssh<\n><\n># 将 dot_files 里的私钥全部移动到真实的 ~/.ssh 目录下<\n># 这样它们既能工作，又不会被 git 扫描到<\n>mv ~/dot_files/ssh/.ssh/id_* ~/.ssh/<\n>mv ~/dot_files/ssh/.ssh/known_hosts* ~/.ssh/<\n><\n># 修改权限（SSH 的基本要求）<\n>chmod 600 ~/.ssh/id_*
+cd 
+backup_archlinux
+git_sync ~/scripts "Update backup data and add git_sync script"
