@@ -1226,3 +1226,4 @@ nu
 exit
 backup_archlinux
 git_update ~/dot_files/ "update the .ssh key"
+nvim
