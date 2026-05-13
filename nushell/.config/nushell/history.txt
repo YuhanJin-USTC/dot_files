@@ -1258,3 +1258,4 @@ exit
 git_update  ~/scripts/ "Update the git update script"
 nvim
 git_update  ~/scripts/ "Update the git update script"
+git_update  ~/dot_files// "Update the git update script"
