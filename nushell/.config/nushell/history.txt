@@ -1231,3 +1231,5 @@ git_update ~/dot_files/ "update the restore file"
 git_update ~/scripts// "update the restore file"
 backup_archlinux 
 git_update ~/scripts/ "update the key"
+git_update ~/dot_files/ "update the key"
+backup_archlinux 
