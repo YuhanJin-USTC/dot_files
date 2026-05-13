@@ -1215,3 +1215,13 @@ rm -rf test/
 ll
 cd ..
 backup_archlinux
+git_update ~/dot_files/ "remove the test file in ssh"
+git_update ~/scripts/ "update the restore file"
+sudo bash ~/scripts/backup_archlinux/restore.sh
+nvim
+exit
+nu
+exit
+nu
+exit
+backup_archlinux
