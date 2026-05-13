@@ -1233,3 +1233,8 @@ backup_archlinux
 git_update ~/scripts/ "update the key"
 git_update ~/dot_files/ "update the key"
 backup_archlinux 
+sudo bash ~/scripts/backup_archlinux/restore.sh
+nvim
+backup_archlinux 
+nvim
+git_update ~/scripts/ "update the restore file"
