@@ -57,11 +57,11 @@ alias clst2win = nu ~/scripts/sync_file/cluster2windows.nu
 
 alias clean_file = nu ~/scripts/clean_file/clean_files.nu
 
-alias bd_sglt_envs = nu ~/scripts/build_singularity_image/bd_sglt_envs.nu
+alias bd_pic_envs = nu ~/scripts/build_singularity_image/bd_pic_envs.nu
 
-alias bd_sglt_images = nu ~/scripts/build_singularity_image/bd_sglt_images.nu
+alias bd_pic_images = nu ~/scripts/build_singularity_image/bd_pic_images.nu
 
-alias tsf_sglt_images = nu ~/scripts/build_singularity_image/tsf_sglt_images.nu
+alias test_pic_images = nu ~/scripts/build_singularity_image/test_pic_images.nu 
 
 alias tsf_clst_key = nu ~/scripts/transfer_cluster_key/tsf_clst_key.nu
 

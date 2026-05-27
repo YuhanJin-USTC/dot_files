@@ -1259,3 +1259,1062 @@ git_update  ~/scripts/ "Update the git update script"
 nvim
 git_update  ~/scripts/ "Update the git update script"
 git_update  ~/dot_files// "Update the git update script"
+git_update  ~/dot_files/ "Update the git update script"
+nvim
+nivm
+nvim
+cd Simulation/2026/2026.5/5.10/reproduce_2026_MRE_NBW_2D_morable/
+cd ..
+nvim
+cd ..
+mkdir 5.13
+cd 5.13
+mkdir reproduce_2026_MRE_NBW_3D
+cd reproduce_2026_MRE_NBW_3D/
+touch input.deck
+nvim
+cd 
+nvim
+cd Simulation/2026/2026.5/5.13/reproduce_2026_MRE_NBW_3D_morable/
+nvim
+ssh tycluster
+nvim
+ssh tycluster
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.11/reproduce_2026_MRE_NBW_2D_immorable/Results_input_20260511_234415/ /mnt/d/Document/Matlab/simulation/2026/2026.5/5.12/reproduce_2026_MRE_NBW_2D_immorable/Data/density/photon photon .sdf -n
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.11/reproduce_2026_MRE_NBW_2D_immorable/Results_input_20260511_234415/ /mnt/d/Document/Matlab/simulation/2026/2026.5/5.12/reproduce_2026_MRE_NBW_2D_immorable/Data/density/photon density_photon .sdf -n
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.11/reproduce_2026_MRE_NBW_2D_immorable/Results_input_20260511_234415/ /mnt/d/Document/Matlab/simulation/2026/2026.5/5.12/reproduce_2026_MRE_NBW_2D_immorable/Data/density/photon density_photon .sdf
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.11/reproduce_2026_MRE_NBW_2D_immorable/Results_input_20260511_234415/ /mnt/d/Document/Matlab/simulation/2026/2026.5/5.12/reproduce_2026_MRE_NBW_2D_immorable/Data/density/nbw_positron density_positron .sdf -n
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.11/reproduce_2026_MRE_NBW_2D_immorable/Results_input_20260511_234415/ /mnt/d/Document/Matlab/simulation/2026/2026.5/5.12/reproduce_2026_MRE_NBW_2D_immorable/Data/density/nbw_positron density_nbw_p .sdf -n
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.11/reproduce_2026_MRE_NBW_2D_immorable/Results_input_20260511_234415/ /mnt/d/Document/Matlab/simulation/2026/2026.5/5.12/reproduce_2026_MRE_NBW_2D_immorable/Data/density/nbw_positron density_nbw_p .sdf
+nvim
+cd
+cd Code_Program/Env/
+ll
+cd ..
+cd Smilei_Spin/Smilei_Spin_v2_2_3D_interpolator/
+nivm
+nvim
+cd ..
+mkdir Smilei
+ll
+cnvim
+nivm
+nvim
+cd Env/
+ll
+mkdir Smilei
+cd Sm
+cd Smilei/
+cp ../../Smilei_Spin/smilei_spin_env.sif
+cp ../../Smilei_Spin/smilei_spin_env.sif .
+mv smilei_spin_env.sif smilei_env.sif
+ll
+cd ../
+ll
+mkdir Smilei_Spin
+cd Smilei_Spin/
+cp ../../Smilei_Spin/smilei_spin_env.sif .
+ll
+cd ..
+tree
+cd Smilei_Spin/
+rm smilei_spin_env.sif
+cd ..
+cd Smilei
+cp ../Smilei_Spin/Smilei_Spin_v2_2_3D_interpolator/build.sh .
+cp ../Smilei_Spin/Smilei_Spin_v2_2_3D_interpolator/template.def .
+nvim
+mkdir Smilei_v5_1
+cd Smilei_v5_1/
+cp ../template.def .
+cp ../build.sh .
+cd ..
+rm build.sh
+rm template.def
+nvim
+nivm
+nvim
+cd ~/Source_Code/
+ll
+cd Smilei/
+ll
+mkdir Smilei_v5_1
+cd ..
+nvim
+cd Smilei/Smilei_v5_1/
+wget https://smileipic.github.io/Smilei/Overview/releases.html
+ll
+cd Source_Code/Smilei/Smilei_v5_1/
+ll
+rm releases.html
+git clone https://github.com/SmileiPIC/Smilei.git
+ll
+cd ..
+cp ./Smilei_v5_1/Smilei/ .
+cp -rf Smilei_v5_1/Smilei/ .
+ll
+rm -rf Smilei_v5_1/
+mv Smilei/ Smilei_v5_1/
+ll
+rm Smilei.tar.gz
+ll
+cd Code_Program/Smilei/Smilei_v5_1/
+ll
+bash build.sh
+nvim
+cd ~/Code_Program/
+nvim
+cd Smilei/Smilei_v5_1/
+bash build.sh
+ssh tycluster
+exit
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.14/reproduce_2026_MRE_NBW_3D_morable_low/Results_input_20260514_221405 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_low/Data/field/bz bz .sdf -n
+ssh wzcluster
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.14/reproduce_2026_MRE_NBW_3D_morable_low/Results_input_20260514_221405 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_low/Data/field/bz bz .sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.14/reproduce_2026_MRE_NBW_3D_morable_low/Results_input_20260514_221405 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_low/Data/field/bz bz .sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.14/reproduce_2026_MRE_NBW_3D_morable_low/Results_input_20260514_221405 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_low/Data/particle/nbw_positron nbw_p .sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.14/reproduce_2026_MRE_NBW_3D_morable_low/Results_input_20260514_221405 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_low/Data/particle/nbw_positron nbw_p .sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.14/reproduce_2026_MRE_NBW_3D_morable_low/Results_input_20260514_221405 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_low/Data/field/ey ey .sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.14/reproduce_2026_MRE_NBW_3D_morable_low/Results_input_20260514_221405 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_low/Data/field/ey ey .sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.14/reproduce_2026_MRE_NBW_3D_morable_low/Results_input_20260514_221405 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_low/Data/density/photon photon .sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.14/reproduce_2026_MRE_NBW_3D_morable_low/Results_input_20260514_221405 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_low/Data/density/photon photon0003 .sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.14/reproduce_2026_MRE_NBW_3D_morable_low/Results_input_20260514_221405 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_low/Data/density/photon photon0003 .sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.14/reproduce_2026_MRE_NBW_3D_morable_low/Results_input_20260514_221405 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_low/Data/density/nbw_positron density_nbw .sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.14/reproduce_2026_MRE_NBW_3D_morable_low/Results_input_20260514_221405 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_low/Data/density/nbw_positron density_nbw0003 .sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.14/reproduce_2026_MRE_NBW_3D_morable_low/Results_input_20260514_221405 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_low/Data/density/nbw_positron density_nbw 0003.sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.14/reproduce_2026_MRE_NBW_3D_morable_low/Results_input_20260514_221405 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_low/Data/density/nbw_positron density_nbw 0003.sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.14/reproduce_2026_MRE_NBW_3D_morable_low/Results_input_20260514_221405 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_low/Data/density/photon/ density_pho .sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.14/reproduce_2026_MRE_NBW_3D_morable_low/Results_input_20260514_221405 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_low/Data/density/photon/ density_pho 0003.sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.14/reproduce_2026_MRE_NBW_3D_morable_low/Results_input_20260514_221405 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_low/Data/density/photon/ density_pho 0003.sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.14/reproduce_2026_MRE_NBW_3D_morable_low/Results_input_20260514_221405 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_low/Data/density/electron density_elec .sdf -n
+cd Simulation/2026/2026.5
+mkdir 5.14
+cd 5.14
+mkdir reproduce_2026_MRE_NBW_3D_morable_low
+cp /mnt/d/Download/Edge/input.deck
+cp /mnt/d/Download/Edge/input.deck .
+ll
+rm input.deck
+cd reproduce_2026_MRE_NBW_3D_morable_low/
+cp /mnt/d/Download/Edge/input.deck .
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.14/reproduce_2026_MRE_NBW_3D_morable_low/Results_input_20260514_221405 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_low/Data/density/electron density_elec 0006.sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.14/reproduce_2026_MRE_NBW_3D_morable_low/Results_input_20260514_221405 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_low/Data/density/electron density_elec 0006.sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.14/reproduce_2026_MRE_NBW_3D_morable_low/Results_input_20260514_221405 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_low/Data/particle/photon photon0003 -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.14/reproduce_2026_MRE_NBW_3D_morable_low/Results_input_20260514_221405 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_low/Data/particle/photon photon0003
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.14/reproduce_2026_MRE_NBW_3D_morable_low/Results_input_20260514_221405 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_low/Data/particle/dla_elctron dla_ -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.14/reproduce_2026_MRE_NBW_3D_morable_low/Results_input_20260514_221405 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_low/Data/particle/dla_elctron dla_ 0006.sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.14/reproduce_2026_MRE_NBW_3D_morable_low/Results_input_20260514_221405 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_low/Data/particle/dla_elctron dla_ 0006.sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.14/reproduce_2026_MRE_NBW_3D_morable_low/Results_input_20260514_221405 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_low/Data/density/electron density_elec 0000.sdf
+ssh wzcluster
+cd Source_Code/Epoch/
+nvim
+exit
+nvim
+clst2win wzcluster 
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.14/reproduce_2026_MRE_NBW_3D_morable_low/Results_input_20260514_221405 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_low/Data/particle/photon/ pho -n
+cd Simulation/2026/2026.5/5.14/reproduce_2026_MRE_NBW_3D_morable_low/
+nvim
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.14/reproduce_2026_MRE_NBW_3D_morable_low/Results_input_20260514_221405 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_low/Data/particle/photon/ pho
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.14/reproduce_2026_MRE_NBW_3D_morable_low/Results_input_20260514_221405 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_low/Data/density/electron/ density_electron .sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.14/reproduce_2026_MRE_NBW_3D_morable_low/Results_input_20260514_221405 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_low/Data/density/electron/ density_electron .sdf
+nvim
+cd ../ 
+cd ..
+mkdir 5.15
+cd 5.15/
+cp -rf ../5.14/reproduce_2026_MRE_NBW_3D_morable_low/ .
+ll
+mv reproduce_2026_MRE_NBW_3D_morable_low/ reproduce_2026_MRE_NBW_3D_morable_short_low
+ll
+mkdir reproduce_2026_MRE_NBW_3D_morable_short_400nc_low
+ll
+cd reproduce_2026_MRE_NBW_3D_morable_short_low/
+cd ..
+cd ../5.14
+ll
+cd reproduce_2026_MRE_NBW_3D_morable_low/
+nvim
+rm input.deck
+cp /mnt/d/Download/Edge/input.deck .
+nivm
+nvim
+cd ../../5.15
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.14/reproduce_2026_MRE_NBW_3D_morable_low/Results_input_20260514_221405 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_low/Data/particle/dla_electron dla_elec .sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.14/reproduce_2026_MRE_NBW_3D_morable_low/Results_input_20260514_221405 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_low/Data/particle/dla_electron dla_elec .sdf
+nvim
+mkdir reproduce_2026_MRE_NBW_3D_morable_short_400nc_3nc_low
+ll
+mv reproduce_2026_MRE_NBW_3D_morable_short_low/ reproduce_2026_MRE_NBW_3D_morable_short_focus_10_low
+mv reproduce_2026_MRE_NBW_3D_morable_short_400nc_low/ reproduce_2026_MRE_NBW_3D_morable_short_400nc_focus_10_low
+mv reproduce_2026_MRE_NBW_3D_morable_short_400nc_3nc_low/ reproduce_2026_MRE_NBW_3D_morable_short_400nc_3nc_focus_10_low
+ll
+nvim
+cd reproduce_2026_MRE_NBW_3D_morable_short_400nc_focus_10_low/
+cp ../reproduce_2026_MRE_NBW_3D_morable_short_focus_10_low/input.deck .
+cd ../reproduce_2026_MRE_NBW_3D_morable_short_400nc_3nc_focus_10_low/
+cp ../reproduce_2026_MRE_NBW_3D_morable_short_focus_10_low/input.deck .
+nvim
+ssh wzcluster
+exit'<\n>exit<\n><\n><\n><\n>'
+exit
+ssh tycluster
+clst2win tycluster /w
+exi8t
+exit
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.14/reproduce_2026_MRE_NBW_3D_immorable_low /mnt/d/Document/Matlab/simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_immorable_low/Data/field/ey ey .sdf -n
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.14/reproduce_2026_MRE_NBW_3D_immorable_low/Results_input_20260515_053058 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_immorable_low/Data/field/ey ey .sdf -n
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.14/reproduce_2026_MRE_NBW_3D_immorable_low/Results_input_20260515_053058 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_immorable_low/Data/field/ey ey .sdf
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.14/reproduce_2026_MRE_NBW_3D_immorable_low/Results_input_20260515_053058 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_immorable_low/Data/field/bz bz .sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_short_focus_10_low/Results_input_20260516_010158 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.16/reproduce_2026_MRE_NBW_3D_morable_focus_10_low/Data/field/ey ey .sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_short_focus_10_low/Results_input_20260516_010158 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.16/reproduce_2026_MRE_NBW_3D_morable_focus_10_low/Data/field/ey ey .sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_short_focus_10_low/Results_input_20260516_010158 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.16/reproduce_2026_MRE_NBW_3D_morable_focus_10_low/Data/field/bz bz .sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_short_400nc_focus_10_low/Results_input_20260516_010207 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.16/reproduce_2026_MRE_NBW_3D_morable_400nc_focus_10_low/Data/field/ey ey .sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_short_400nc_focus_10_low/Results_input_20260516_010207 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.16/reproduce_2026_MRE_NBW_3D_morable_400nc_focus_10_low/Data/field/bz bz .sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_short_400nc_3nc_focus_10_low/Results_input_20260516_010217 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.16/reproduce_2026_MRE_NBW_3D_morable_400nc_3nc_focus_10_low/Data/field/ey ey .sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_short_400nc_3nc_focus_10_low/Results_input_20260516_010217 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.16/reproduce_2026_MRE_NBW_3D_morable_400nc_3nc_focus_10_low/Data/field/bz bz .sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_short_focus_10_low/Results_input_20260516_010158 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.16/reproduce_2026_MRE_NBW_3D_morable_short_focus_10_low/Data/density/electron density_elec -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_short_focus_10_low/Results_input_20260516_010158 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.16/reproduce_2026_MRE_NBW_3D_morable_short_focus_10_low/Data/particle/dla_electron dla_elec .sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_short_focus_10_low/Results_input_20260516_010158 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.16/reproduce_2026_MRE_NBW_3D_morable_short_focus_10_low/Data/density/electron density_elec .sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_short_focus_10_low/Results_input_20260516_010158 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.16/reproduce_2026_MRE_NBW_3D_morable_short_focus_10_low/Data/particle/dla_electron dla_elec .sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_short_400nc_focus_10_low/Results_input_20260516_010207 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.16/reproduce_2026_MRE_NBW_3D_morable_short_400nc_focus_10_low//Data/density/electron density_elec .sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_short_400nc_3nc_focus_10_low/Results_input_20260516_010217 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.16/reproduce_2026_MRE_NBW_3D_morable_short_400nc_3nc_focus_10_low///Data/density/electron density_elec .sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_short_400nc_focus_10_low/Results_input_20260516_010207 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.16/reproduce_2026_MRE_NBW_3D_morable_short_400nc_focus_10_low//Data/particle/dla_electron dla_elec .sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_short_400nc_3nc_focus_10_low/Results_input_20260516_010217 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.16/reproduce_2026_MRE_NBW_3D_morable_short_400nc_3nc_focus_10_low//Data/particle/dla_electron dla_elec .sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_short_focus_10_low/Results_input_20260516_010158 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.16/reproduce_2026_MRE_NBW_3D_morable_short_focus_10_low/Data/particle/nbw_positron nbw_posi .sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_short_focus_10_low/Results_input_20260516_010158 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.16/reproduce_2026_MRE_NBW_3D_morable_short_focus_10_low/Data/particle/nbw_positron nbw_posi .sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_short_focus_10_low/Results_input_20260516_010158 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.16/reproduce_2026_MRE_NBW_3D_morable_short_focus_10_low/Data/particle/photon pho .sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_short_400nc_focus_10_low/Results_input_20260516_010207 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.16/reproduce_2026_MRE_NBW_3D_morable_short_400nc_focus_10_low/Data/particle/nbw_positron nbw_ .sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_short_400nc_focus_10_low/Results_input_20260516_010207 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.16/reproduce_2026_MRE_NBW_3D_morable_short_400nc_focus_10_low/Data/particle/nbw_positron nbw_ .sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_short_400nc_focus_10_low/Results_input_20260516_010207 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.16/reproduce_2026_MRE_NBW_3D_morable_short_400nc_focus_10_low/Data/particle/photon photon .sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_short_400nc_focus_10_low/Results_input_20260516_010207 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.16/reproduce_2026_MRE_NBW_3D_morable_short_400nc_focus_10_low/Data/particle/photon photon .sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_short_focus_10_low/Results_input_20260516_010158 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.16/reproduce_2026_MRE_NBW_3D_morable_short_focus_10_low/Data/particle/photon pho .sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_short_400nc_3nc_focus_10_low/Results_input_20260516_010217 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.16/reproduce_2026_MRE_NBW_3D_morable_short_400nc_3nc_focus_10_low/Data/particle/nbw_positron nbw_ .sdf
+cd Simulation/2026/2026.5
+mkdir 5.17
+rm -rf 5.17
+mkdir 5.17
+cd 5.17
+cp -rf ../5.15/reproduce_2026_MRE_NBW_3D_morable_short_400nc_focus_10_low/ .
+mv reproduce_2026_MRE_NBW_3D_morable_short_400nc_focus_10_low/ reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_10/
+ll
+cd reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_10/
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.15/reproduce_2026_MRE_NBW_3D_morable_short_400nc_3nc_focus_10_low/Results_input_20260516_010217 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.16/reproduce_2026_MRE_NBW_3D_morable_short_400nc_3nc_focus_10_low/Data/particle/photon photo .sdf
+nvim
+cd ..
+nvim
+cd
+cd Simulation/2026/2026.5/5.17/
+nvim
+mkdir reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20
+mkdir reproduce_2026_MRE_NBW_2D_morable_short_400nc_6nc_focus_20
+mkdir reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20_angle_10
+mkdir reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20_angle_8
+mkdir reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20_angle_9
+mkdir reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20_angle_6
+rm -rf reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20_angle_8/ reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20_angle_10/
+ll
+mkdir reproduce_2026_MRE_NBW_2D_morable_long_400nc_focus_20
+mkdir reproduce_2026_MRE_NBW_2D_morable_long_400nc_3nc_focus_20
+mkdir reproduce_2026_MRE_NBW_2D_morable_long_400nc_6nc_focus_20
+l
+ll
+nvim
+cd reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20/
+cp ../reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/input.deck .
+cd ../reproduce_2026_MRE_NBW_2D_morable_short_400nc_6nc_focus_20/
+cp ../reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/input.deck .
+cd ../reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20_angle_6/
+cp ../reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/input.deck .
+cd ../reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20_angle_9/
+cp ../reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/input.deck .
+nvim
+cd
+cd Simulation/2026/2026.5/5.17/
+nvim
+mkdir reproduce_2026_MRE_NBW_2D_morable_long_400nc_focus_20/
+cd reproduce_2026_MRE_NBW_2D_morable_long_400nc_focus_20/
+cp ../reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/
+cp ../reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/ .
+cp ../reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/input.deck .
+nvim
+cd ..
+rm reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_angle_6 reproduce_2026_MRE_NBW_2D_morable_8
+rm reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_angle_6 reproduce_2026_MRE_NBW_2D_morable_8/
+mv reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_angle_6/ reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_angle_8
+mv reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_angle_9/ reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_angle_10
+mkdir reproduce_2026_MRE_NBW_2D_morable_short_400nc_1nc_focus_20/
+cd reproduce_2026_MRE_NBW_2D_morable_short_400nc_1nc_focus_20/
+cp ../reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20/input.deck .
+nvim
+cd ..
+mkdir reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_pre
+cd reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_pre/
+cp ../reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/input.deck .
+nvim
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_long_400nc_focus_20/Results_input_20260517_185213 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_long_400nc_focus_20/Data/particle/nbw_positron nbw_pos .sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_long_400nc_focus_20/Results_input_20260517_185213 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_long_400nc_focus_20/Data/particle/nbw_positron nbw_pos .sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_1nc_focus_20/Results_input_20260517_185224 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_1nc_focus_20/Data/particle/nbw_positron nbw_ .sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_1nc_focus_20/Results_input_20260517_185224 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_1nc_focus_20/Data/particle/nbw_positron nbw_ .sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20/Results_input_20260517_185252 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20/Data/particle/nbw_positron nb .sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20/Results_input_20260517_185252 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20/Data/particle/nbw_positron nb .sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_6nc_focus_20/Results_input_20260517_185258 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_6nc_focus_20/Data/particle/nbw_positron nb .sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_6nc_focus_20/Results_input_20260517_185258 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_6nc_focus_20/Data/particle/nbw_positron nb .sdf 
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/Results_input_20260517_185313 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/Data/particle/nbw_positron nb sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/Results_input_20260517_185313 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/Data/particle/nbw_positron nb sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_angle_8/Results_input_20260517_185327 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_anger_8/Data/particle/nbw_positron nb sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_angle_8/Results_input_20260517_185327 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_anger_8/Data/particle/nbw_positron nb sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_angle_10/Results_input_20260517_185333 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_anger_10/Data/particle/nbw_positron nb sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_angle_10/Results_input_20260517_185333 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_anger_10/Data/particle/nbw_positron nb sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_pre/Results_input_20260517_185338 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_pre/Data/particle/nbw_positron nb sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_pre/Results_input_20260517_185338 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_pre/Data/particle/nbw_positron nb sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_long_400nc_focus_20/Results_input_20260517_185213 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_long_400nc_focus_20/Data/field/bz bz .sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_long_400nc_focus_20/Results_input_20260517_185213 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_long_400nc_focus_20/Data/field/bz bz .sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_1nc_focus_20/Results_input_20260517_185224 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_1nc_focus_20/Data/field/bz bz .sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_1nc_focus_20/Results_input_20260517_185224 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_1nc_focus_20/Data/field/bz bz .sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20/Results_input_20260517_185252 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20/Data/field/bz bz .sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20/Results_input_20260517_185252 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20/Data/field/bz bz .sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_6nc_focus_20/Results_input_20260517_185258 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_6nc_focus_20/Data/field/bz bz .sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_6nc_focus_20/Results_input_20260517_185258 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_6nc_focus_20/Data/field/bz bz .sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_angle_8/Results_input_20260517_185327 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_anger_8/Data/field/bz bz sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_angle_10/Results_input_20260517_185333 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_anger_10/Data/field/bz bz sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_angle_10/Results_input_20260517_185333 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_anger_10/Data/field/bz bz sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_angle_8/Results_input_20260517_185327 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_anger_8/Data/field/bz bz sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_pre/Results_input_20260517_185338 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_pre/Data/field/bz bz sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/Results_input_20260517_185313 /mnt/d/Document/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/Data/field/bz bz sdf
+cd Simulation/2026/2026.5/
+mkdir 5.18
+cd 5.18
+cp -rf ../5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/ .
+mv reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/ reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_40
+mkdir reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_0
+mkdir reproduce_2026_MRE_NBW_2D_morable_400nc_no_laser
+mkdir reproduce_2026_MRE_NBW_2D_morable_400nc_no_foam
+mkdir reproduce_2026_MRE_NBW_2D_morable_short_600nc_focus_20
+mkdir reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20
+mkdir reproduce_2026_MRE_NBW_2D_immorable_short_400nc_focus_20
+cp -rf ../5.17/reproduce_2026_MRE_NBW_2D_morable_long_small_400nc_focus_20
+cp -rf ../5.17/reproduce_2026_MRE_NBW_2D_morable_long_small_400nc_focus_20 .
+cp -rf ../5.17/reproduce_2026_MRE_NBW_2D_morable_long_400nc_focus_20 .
+mv reproduce_2026_MRE_NBW_2D_morable_long_400nc_focus_20/ reproduce_2026_MRE_NBW_2D_morable_long_small_400nc_focus_20/
+nvim
+mkdir reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_flat
+nvim
+mkdir reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_field_4
+ll
+cd reproduce_2026_MRE_NBW_2D_immorable_short_400nc_focus_20/
+cp ../reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_40/input.deck .
+cd ../reproduce_2026_MRE_NBW_2D_morable_400nc_no_foam/
+cp ../reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_40/input.deck .
+cd ../reproduce_2026_MRE_NBW_2D_morable_400nc_no_laser/
+cp ../reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_40/input.deck .
+cd ../reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_0/
+ll
+cd ../reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_0/
+cp ../reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_40/input.deck .
+cd ../reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_field_4/
+cp ../reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_40/input.deck .
+cd ../reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_flat/
+cp ../reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_40/input.deck .
+cd ../reproduce_2026_MRE_NBW_2D_morable_short_600nc_focus_20/
+cp ../reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_40/input.deck .
+cd ../reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20/
+cp ../reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_40/input.deck .
+nvim
+ssh wzcluster
+exit
+ssh wzcluster
+exit
+/mnt/z
+nvim
+/mnt/z/金虞焓/
+/mnt/z/
+sudo mkdir -p /mnt/z
+sudo mount -t drvfs Z: /mnt/z
+/mnt/z/
+LL
+ll
+cd
+ll
+sudo mkdir -p /mnt/z
+sudo mount -t drvfs '\\114.214.166.151\group' /mnt/z
+ll
+sudo nano /etc/fstab
+sudo nvim /etc/fstab
+sudo mount -a
+sudo mkdir -p /mnt/y /mnt/z
+sudo nvim /etc/fstab
+sudo mount -a
+exit
+/mnt/z/
+cd 
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_long_400nc_focus_20/Results_input_20260517_185213 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_long_400nc_focus_20/Data/density/foam/ density_fo sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_long_400nc_focus_20/Results_input_20260517_185213 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_long_400nc_focus_20/Data/density/foam/ density_fo sdf
+sudo nvim /etc/fstab
+sudo umount /mnt/z<\n>sudo mount -a
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_long_400nc_focus_20/Results_input_20260517_185213 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_long_400nc_focus_20/Data/density/foam/ density_fo sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_long_400nc_focus_20/Results_input_20260517_185213 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_long_400nc_focus_20/Data/density/reflec/ density_re sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_long_400nc_focus_20/Results_input_20260517_185213 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_long_400nc_focus_20/Data/density/reflec/ density_re sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_long_400nc_focus_20/Results_input_20260517_185213 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_long_400nc_focus_20/Data/density/reflec/ density_re sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_long_400nc_focus_20/Results_input_20260517_185213 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_long_400nc_focus_20/Data/particle/photon/ photon sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_long_400nc_focus_20/Results_input_20260517_185213 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_long_400nc_focus_20/Data/particle/dla_electron/ dla_ sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_long_400nc_focus_20/Results_input_20260517_185213 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_long_400nc_focus_20/Data/field/ey/ ey sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_long_400nc_focus_20/Results_input_20260517_185213 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_long_400nc_focus_20/Data/particle/dla_electron/ dla_ sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_long_400nc_focus_20/Results_input_20260517_185213 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_long_400nc_focus_20/Data/particle/photon/ photon sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_long_400nc_focus_20/Results_input_20260517_185213 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_long_400nc_focus_20/Data/field/ey/ ey sdf
+nvim
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_long_400nc_focus_20/Results_input_20260517_185213 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_long_400nc_focus_20/Data/particle/dla_electron/ dla_ sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_1nc_focus_20/Results_input_20260517_185224 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_1nc_focus_20/Data/density/foam/ density_f sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_1nc_focus_20/Results_input_20260517_185224 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_1nc_focus_20/Data/density/reflec/ density_r sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_1nc_focus_20/Results_input_20260517_185224 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_1nc_focus_20/Data/density/foam/ density_f sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_1nc_focus_20/Results_input_20260517_185224 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_1nc_focus_20/Data/particle/photon photon sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_1nc_focus_20/Results_input_20260517_185224 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_1nc_focus_20/Data/particle/dla_electron dla_ sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_1nc_focus_20/Results_input_20260517_185224 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_1nc_focus_20/Data/density/reflec/ density_r sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20/Results_input_20260517_185252 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20/Data/field/ey ey sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_1nc_focus_20/Results_input_20260517_185224 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_1nc_focus_20/Data/field/ey ey sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_1nc_focus_20/Results_input_20260517_185224 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_1nc_focus_20/Data/field/ey ey sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20/Results_input_20260517_185252 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20/Data/density/foam/ foam sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20/Results_input_20260517_185252 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20/Data/density/foam/ density_foam sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20/Results_input_20260517_185252 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20/Data/density/foam/ density_foam sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_1nc_focus_20/Results_input_20260517_185224 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_1nc_focus_20/Data/particle/dla_electron dla_ sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20/Results_input_20260517_185252 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20/Data/density/reflec/ density_r sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20/Results_input_20260517_185252 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20/Data/density/reflec/ density_r sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20/Results_input_20260517_185252 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20/Data/particle/dla_electron dla sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20/Results_input_20260517_185252 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20/Data/particle/photon pho sdf - n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20/Results_input_20260517_185252 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20/Data/particle/photon pho sdf -n
+nvim
+:q
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20/Results_input_20260517_185252 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20/Data/particle/dla_electron dla sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_6nc_focus_20/Results_input_20260517_185258 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_6nc_focus_20/Data/field/ey ey sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_6nc_focus_20/Results_input_20260517_185258 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_6nc_focus_20/Data/field/ey ey sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_6nc_focus_20/Results_input_20260517_185258 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_6nc_focus_20/Data/density/foam density_f sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_6nc_focus_20/Results_input_20260517_185258 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_6nc_focus_20/Data/density/reflec density_r sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_6nc_focus_20/Results_input_20260517_185258 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_6nc_focus_20/Data/particle/dla_electron dl sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_6nc_focus_20/Results_input_20260517_185258 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_6nc_focus_20/Data/particle/dla_electron dl sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/Results_input_20260517_185313 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/Data/field/ey ey sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_angle_8/Results_input_20260517_185327 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_anger_8/Data/field/ey ey sdf -n
+clst2win wcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_angle_10/Results_input_20260517_185333 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_anger_10/Data/field/ey ey sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_angle_10/Results_input_20260517_185333 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_anger_10/Data/field/ey ey sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_pre/Results_input_20260517_185338 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_pre/Data/field/
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_pre/Results_input_20260517_185338 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_pre/Data/field/ey ey sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_angle_8/Results_input_20260517_185327 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_anger_8/Data/field/ey ey sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/Results_input_20260517_185313 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/Data/field/ey ey sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/Results_input_20260517_185313 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/Data/density/foam density_f sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_angle_8/Results_input_20260517_185327 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_anger_8/Data/density/faom density_f sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_6nc_focus_20/Results_input_20260517_185258 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_6nc_focus_20/Data/particle/dla_electron dl sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_angle_10/Results_input_20260517_185333 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_anger_10/Data/field/ey ey sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/Results_input_20260517_185313 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/Data/density/foam density_f sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_angle_10/Results_input_20260517_185333 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_anger_10/Data/density/foam/ density_f sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/Results_input_20260517_185313 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/Data/density/reflec density_r sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_angle_8/Results_input_20260517_185327 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_anger_8/Data/density/faom density_f sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_angle_8/Results_input_20260517_185327 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_anger_8/Data/density/reflec density_r sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_angle_10/Results_input_20260517_185333 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_anger_10/Data/density/foam/ density_f sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_pre/Results_input_20260517_185338 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_pre/Data/field/ey ey sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/Results_input_20260517_185313 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/Data/density/reflec density_r sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_pre/Results_input_20260517_185338 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_pre/Data/density/foam denisty_f sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_pre/Results_input_20260517_185338 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_pre/Data/density/foam density_f sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/Results_input_20260517_185313 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/Data/particle/dla_electron dla sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_angle_8/Results_input_20260517_185327 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_anger_8/Data/particle/dla_electron dla sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_6nc_focus_20/Results_input_20260517_185258 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_6nc_focus_20/Data/particle/dla_electron dl sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_angle_10/Results_input_20260517_185333 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_anger_10/Data/density/reflec density_r sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_pre/Results_input_20260517_185338 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_pre/Data/density/foam density_f sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_angle_10/Results_input_20260517_185333 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_anger_10/Data/particle/dla_electron dla sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_pre/Results_input_20260517_185338 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_pre/Data/particle/dla_electron dla sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_immorable_short_800nc_focus_20/Results_input_20260519_002138 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_immorable_short_800nc_focus_20/Data/field/ey ey sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/Results_input_20260517_185313 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/Data/particle/dla_electron dla sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_immorable_short_800nc_focus_20/Results_input_20260519_002138 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_immorable_short_800nc_focus_20/Data/field/ey ey sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_pre/Results_input_20260517_185338 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_pre/Data/particle/dla_electron dla sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_immorable_short_800nc_focus_20/Results_input_20260519_002138 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_immorable_short_800nc_focus_20/Data/field/bz bz sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_immorable_short_800nc_focus_20/Results_input_20260519_002138 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_immorable_short_800nc_focus_20/Data/field/bz bz sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_immorable_short_800nc_focus_20/Results_input_20260519_002138 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_immorable_short_800nc_focus_20/Data/density/foam density_f sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_immorable_short_800nc_focus_20/Results_input_20260519_002138 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_immorable_short_800nc_focus_20/Data/density/foam density_f sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_immorable_short_800nc_focus_20/Results_input_20260519_002138 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_immorable_short_800nc_focus_20/Data/density/reflec density_r sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/Results_input_20260517_185313 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/Data/particle/dla_electron dla sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_immorable_short_800nc_focus_20/Results_input_20260519_002138 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_immorable_short_800nc_focus_20/Data/density/reflec density_r sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_immorable_short_800nc_focus_20/Results_input_20260519_002138 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_immorable_short_800nc_focus_20/Data/particle/nbw_positron nbw sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_immorable_short_800nc_focus_20/Results_input_20260519_002138 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_immorable_short_800nc_focus_20/Data/particle/nbw_positron nbw sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_immorable_short_800nc_focus_20/Results_input_20260519_002138 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_immorable_short_800nc_focus_20/Data/particle/dla_electron dla sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_angle_8/Results_input_20260517_185327 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_anger_8/Data/particle/dla_electron dla sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_immorable_short_800nc_focus_20/Results_input_20260519_002138 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_immorable_short_800nc_focus_20/Data/particle/dla_electron dla sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_foam/Results_input_20260519_002201 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_foam/Data/field/ey ey sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_laser/Results_input_20260519_002205 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_laser/Data/field/ey ey sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_laser/Results_input_20260519_002205 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_laser/Data/field/ey ey sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_laser/Results_input_20260519_002205 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_laser/Data/field/bz bz sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_laser/Results_input_20260519_002205 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_laser/Data/field/bz bz sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_foam/Results_input_20260519_002201 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_foam/Data/field/ey ey sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_laser/Results_input_20260519_002205 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_laser/Data/density/foam density_f sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_laser/Results_input_20260519_002205 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_laser/Data/density/foam density_f sd
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_foam/Results_input_20260519_002201 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_foam/Data/field/bz ba sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_laser/Results_input_20260519_002205 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_laser/Data/density/foam density_f sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_laser/Results_input_20260519_002205 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_laser/Data/density/reflec density_r sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_long_small_800nc_focus_20/Results_input_20260519_002216 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_long_small_800nc_focus_20/Data/field/ey ey sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_foam/Results_input_20260519_002201 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_foam/Data/field/bz bz sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_foam/Results_input_20260519_002201 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_foam/Data/density/foam denisty_f sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_foam/Results_input_20260519_002201 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_foam/Data/density/foam density_f sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_foam/Results_input_20260519_002201 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_foam/Data/density/foam density_r sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_6nc_focus_20/Results_input_20260517_185258 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_6nc_focus_20/Data/particle/dla_electron dl sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_foam/Results_input_20260519_002201 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_foam/Data/density/reflec density_r sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_foam/Results_input_20260519_002201 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_foam/Data/density/reflec density_r sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_0/Results_input_20260519_002225 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_0/Data/field/ey ey sd -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_0/Results_input_20260519_002225 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_0/Data/field/ey ey sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_angle_10/Results_input_20260517_185333 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_anger_10/Data/particle/dla_electron dla sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_foam/Results_input_20260519_002201 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_foam/Data/particle/nbw_positron nbw sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_foam/Results_input_20260519_002201 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_foam/Data/particle/nbw_positron nbw sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_0/Results_input_20260519_002225 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_0/Data/field/ey ey sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20/Results_input_20260519_002233 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20/Data/field/ey ey sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_foam/Results_input_20260519_002201 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_foam/Data/particle/dla_electron dla sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_0/Results_input_20260519_002225 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_0/Data/field/bz bz sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_foam/Results_input_20260519_002201 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_foam/Data/particle/dla_electron dla sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_long_small_800nc_focus_20/Results_input_20260519_002216 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_long_small_800nc_focus_20/Data/field/ey ey sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_40/Results_input_20260519_002252 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_40/Data/field/ey ey sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_0/Results_input_20260519_002225 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_0/Data/field/bz bz sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20/Results_input_20260519_002233 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20/Data/field/ey ey sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_long_small_800nc_focus_20/Results_input_20260519_002216 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_long_small_800nc_focus_20/Data/field/bz bz sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20/Results_input_20260519_002233 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20/Data/field/bz bz sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_0/Results_input_20260519_002225 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_0/Data/density/foam density_f sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_40/Results_input_20260519_002252 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_40/Data/field/ey ey sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_long_small_800nc_focus_20/Results_input_20260519_002216 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_long_small_800nc_focus_20/Data/field/bz bz sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_long_small_800nc_focus_20/Results_input_20260519_002216 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_long_small_800nc_focus_20/Data/density/foam density_f sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_immorable_short_800nc_focus_20/Results_input_20260519_002138 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_immorable_short_800nc_focus_20/Data/particle/dla_electron dla sdf
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_field_4/Results_input_20260519_002240 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_field_4/Data/field/ey ey sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_long_small_800nc_focus_20/Results_input_20260519_002216 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_long_small_800nc_focus_20/Data/density/foam density_f sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_long_small_800nc_focus_20/Results_input_20260519_002216 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_long_small_800nc_focus_20/Data/density/reflec density_r sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_0/Results_input_20260519_002225 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_0/Data/density/foam density_f sdf
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_field_4/Results_input_20260519_002240 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_field_4/Data/field/ey ey sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_0/Results_input_20260519_002225 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_0/Data/density/reflec density_r sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20/Results_input_20260519_002233 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20/Data/field/bz bz sdf
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_field_4/Results_input_20260519_002240 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_field_4/Data/field/bz bz sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_40/Results_input_20260519_002252 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_40/Data/field/bz bz sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_long_small_800nc_focus_20/Results_input_20260519_002216 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_long_small_800nc_focus_20/Data/density/reflec density_r sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_0/Results_input_20260519_002225 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_0/Data/density/reflec density_r sdf
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_field_4/Results_input_20260519_002240 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_field_4/Data/density/foam density_f sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_40/Results_input_20260519_002252 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_40/Data/density/foam density_f sdf -n
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_field_4/Results_input_20260519_002240 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_field_4/Data/density/foam density_f sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_long_small_800nc_focus_20/Results_input_20260519_002216 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_long_small_800nc_focus_20/Data/particle/nbw_positron nbw sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_long_small_800nc_focus_20/Results_input_20260519_002216 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_long_small_800nc_focus_20/Data/particle/nbw_positron nbw sdf
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_field_4/Results_input_20260519_002240 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_field_4/Data/density/reflec density_r sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_40/Results_input_20260519_002252 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_40/Data/density/foam density_f sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_long_small_800nc_focus_20/Results_input_20260519_002216 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_long_small_800nc_focus_20/Data/particle/dla_electron dla sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_40/Results_input_20260519_002252 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_40/Data/density/reflec density_r sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_0/Results_input_20260519_002225 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_0/Data/particle/nbw_positron nbw sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_0/Results_input_20260519_002225 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_0/Data/particle/nbw_positron nbw sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_0/Results_input_20260519_002225 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_0/Data/particle/dla_electron dla sdf -n
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_field_4/Results_input_20260519_002240 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_field_4/Data/density/reflec density_r sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_40/Results_input_20260519_002252 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_40/Data/density/reflec density_r sdf 
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20/Results_input_20260519_002233 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20/Data/density/foam density_f sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_40/Results_input_20260519_002252 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_40/Data/particle/nbw_positron sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_40/Results_input_20260519_002252 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_40/Data/particle/nbw_positron nbw sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_40/Results_input_20260519_002252 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_40/Data/particle/nbw_positron nbw sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_40/Results_input_20260519_002252 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_40/Data/particle/dla_electron dla sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20/Results_input_20260519_002233 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20/Data/density/foam density_f sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20/Results_input_20260519_002233 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20/Data/density/reflec density_r sdf -n
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_field_4/Results_input_20260519_002240 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_field_4/Data/field/bz bz sdf
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_field_4/Results_input_20260519_002240 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_field_4/Data/density/foam density_f sdf -n
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_field_4/Results_input_20260519_002240 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_field_4/Data/density/reflec density_r sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20/Results_input_20260519_002233 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20/Data/density/reflec density_r sdf
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_field_4/Results_input_20260519_002240 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_field_4/Data/particle/nbw_positron nbw sdf -n
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_field_4/Results_input_20260519_002240 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_field_4/Data/particle/nbw_positron nbw sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20/Results_input_20260519_002233 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20/Data/particle/nbw_positron sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20/Results_input_20260519_002233 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20/Data/particle/nbw_positron nbw sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20/Results_input_20260519_002233 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20/Data/particle/nbw_positron nbw sdf
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_field_4/Results_input_20260519_002240 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_field_4/Data/particle/dla_electron dla sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20/Results_input_20260519_002233 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20/Data/particle/dla_electron dla sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_40/Results_input_20260519_002252 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_40/Data/particle/dla_electron dla sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20/Results_input_20260519_002233 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20/Data/particle/dla_electron dla sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_long_small_800nc_focus_20/Results_input_20260519_002216 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_long_small_800nc_focus_20/Data/particle/dla_electron dla sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_0/Results_input_20260519_002225 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_0/Data/particle/dla_electron dla sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_40/Results_input_20260519_002252 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_40/Data/particle/dla_electron dla sdf
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_flat/Results_input_20260519_002246 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_flat/Data/field/ey ey sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20/Results_input_20260519_002233 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20/Data/particle/dla_electron dla sdf
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_1600nc_focus_20/Results_input_20260519_002333 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_1600nc_focus_20/Data/field/ey ey sdf -n
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_flat/Results_input_20260519_002246 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_flat/Data/field/ey ey sdf 
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_flat/Results_input_20260519_002246 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_flat/Data/field/bz bz sdf  -n
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_flat/Results_input_20260519_002246 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_flat/Data/field/bz bz sdf
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_flat/Results_input_20260519_002246 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_flat/Data/density/foam density_f sdf -n
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_flat/Results_input_20260519_002246 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_flat/Data/density/foam density_f sdf
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_flat/Results_input_20260519_002246 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_flat/Data/density/reflec density_r sdf
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_flat/Results_input_20260519_002246 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_flat/Data/particle/nbw_positron nbw sdf -n
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_flat/Results_input_20260519_002246 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_flat/Data/particle/nbw_positron nbw sdf
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_flat/Results_input_20260519_002246 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_flat/Data/particle/dla_electron dla sdf -n
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_1600nc_focus_20/Results_input_20260519_002333 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_1600nc_focus_20/Data/field/ey ey sdf
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_1600nc_focus_20/Results_input_20260519_002333 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_1600nc_focus_20/Data/field/bz bz sdf
+ll
+lll
+ll
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_1600nc_focus_20/Results_input_20260519_002333 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_1600nc_focus_20/Data/density/foam density_f sdf
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_1600nc_focus_20/Results_input_20260519_002333 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_1600nc_focus_20/Data/density/reflec density_r sdf
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_1600nc_focus_20/Results_input_20260519_002333 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_1600nc_focus_20/Data/particle/nbw_positron nbw sdf -n
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_1600nc_focus_20/Results_input_20260519_002333 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_1600nc_focus_20/Data/particle/nbw_positron nbw sdf
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_1600nc_focus_20/Results_input_20260519_002333 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_1600nc_focus_20/Data/particle/dla_electron dla sdf -n
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_flat/Results_input_20260519_002246 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_flat/Data/particle/dla_electron dla sdf
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_field_4/Results_input_20260519_002240 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_field_4/Data/particle/dla_electron dla sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_pre/Results_input_20260517_185338 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20_pre/Data/particle/dla_electron dla sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_1nc_focus_20/Results_input_20260517_185224 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_1nc_focus_20/Data/particle/photon photon sdf
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/Results_input_20260517_185313 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/Data/particle/photon ph sdf -n
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/Results_input_20260517_185313 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/Data/particle/photon photon sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/Results_input_20260517_185313 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/Data/particle/photon photon sdf -n
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_1600nc_focus_20/Results_input_20260519_002333 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_morable_short_1600nc_focus_20/Data/particle/dla_electron dla sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/Results_input_20260517_185313 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/Data/particle/photon photon sdf
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20/Results_input_20260517_185252 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20/Data/particle/photon pho sdf
+exit
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20/Results_input_20260517_185252 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_3nc_focus_20/Data/field/ey/ ey sdf 
+nvim
+exit
+cd Simulation/2026/2026.5
+mkdir 5.20/2026_MRE_wo_RR
+cd 5.20/2026_MRE_wo_RR/
+ls
+cp ../../5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/input.deck .
+cd ..
+cp -rf ../5.18/reproduce_2026_MRE_NBW_2D_immorable_short_800nc_focus_20/ .
+cp -rf ../5.18/reproduce_2026_MRE_NBW_2D_morable_long_small_800nc_focus_20/ .
+cp -rf ../5.18/reproduce_2026_MRE_NBW_2D_morable_short_1600nc_focus_20/ .
+cp -rf ../5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20/ .
+cp -rf ../5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_field_4/ .
+cp -rf ../5.18/reproduce_2026_MRE_NBW_2D_morable_400nc_no_foam/ .
+cp -rf ../5.18/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_flat/ .
+nvim
+l
+ll
+mkdir 2026_MRE_3D
+nvim
+cd 2026_MRE_3D/
+cp ../../5.15/reproduce_2026_MRE_NBW_3D_morable_short_400nc_focus_10_low/
+cp ../../5.15/reproduce_2026_MRE_NBW_3D_morable_short_400nc_focus_10_low/ .
+cp ../../5.15/reproduce_2026_MRE_NBW_3D_morable_short_400nc_focus_10_low/input.deck .
+cd Simulation/2026/2026.5/5.20
+nvim
+rm -rf reproduce_2026_MRE_NBW_2D_morable_long_small_800nc_focus_20/
+nvim
+nvim
+cd ..
+mkdir 2026_MRE_3D_wo_RR
+cd 2026_MRE_3D_wo_RR/
+nvim
+cp ../2026_MRE_3D/input.deck .
+nvim
+ll
+cd ..
+ll
+nvim
+mv 2026_MRE_wo_RR/ 2026_MRE_2D_wo_RR/
+ll
+ssh tycluster
+ssh wzcluster
+ssh tycluster
+exit
+nvim
+cd Simulation/2026/2026.5/5.20/
+nvim
+ssh wzcluster
+exit
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.20/2026_MRE_2D_wo_RR/Results_input_20260520_213626 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.20/2026_MRE_2D_wo_RR/Data/density/foam/ density_f -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.20/2026_MRE_2D_wo_RR/Results_input_20260520_213626 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.20/2026_MRE_2D_wo_RR/Data/density/foam/ density_f
+ssh wzcluster
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.20/2026_MRE_2D_wo_RR/Results_input_20260520_213626 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.20/2026_MRE_2D_wo_RR/Data/particle/dla_electron dla sdf -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/2026/2026.5/5.20/2026_MRE_2D_wo_RR/Results_input_20260520_213626 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.20/2026_MRE_2D_wo_RR/Data/particle/dla_electron dla sdf
+cd Simulation/2026/2026.5/5.20/
+cd Simulation/2026/2026.5/5.17/
+nvim
+exit
+nvim
+exit
+cd Simulation/2026/2026.5/
+mkdir 5.25/reproduce_2026_MRE_3D_same
+cd 5.25/
+cp -rf ../5.17/reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/ .
+ll
+nvim
+ll
+cd reproduce_2026_MRE_3D_same_morable/
+cp ../../5.20/2026_MRE_3D/input.deck .
+cd ..
+mkdir reproduce_2026_MRE_3D_same_immorable
+cd reproduce_2026_MRE_3D_same_immorable/
+cp ../../5.20/2026_MRE_3D/input.deck .
+cd ..
+rm reproduce_2026_MRE_3D_same_immorable/input.deck
+rm -rf reproduce_2026_MRE_NBW_2D_morable_short_400nc_focus_20/
+cp ../5.20/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_flat/ .
+cp -rf ../5.20/reproduce_2026_MRE_NBW_2D_morable_short_800nc_3nc_focus_20_flat_field_order_4/ .
+cp -rf ../5.20/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_flat_field/ .
+cp -rf ../5.20/reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_flat/ .
+ll
+mv reproduce_2026_MRE_NBW_2D_morable_short_800nc_focus_20_flat/ reproduce_2026_MRE_NBW_2D_morable_short_800nc_6nc_focus_20_flat_field_4/
+mkdir 2026_MRE_2D_short_800nc_6nc_flat_field_4_a_97
+mv reproduce_2026_MRE_NBW_2D_morable_short_800nc_6nc_focus_20_flat_field_4/ 2026_MRE_2D_short_800nc_6nc_flat_field_4
+ll
+mkdir 2026_MRE_2D_short_800nc_6nc_flat_field_4_LBW
+mkdir 2026_MRE_2D_short_800nc_6nc_flat_field_4_a_97_LBW
+ll
+cd 2026_MRE_2D_short_800nc_6nc_flat_field_4_LBW/
+cp ../../5.10/reproduce_2026_MRE_NBW_2D_morable/input_he.deck .
+nvim
+cd ..
+nvim
+mkdir reproduce_2026_MRE_3D_same_morable_long
+mkdir reproduce_2026_MRE_3D_same_immorable_long
+nvim
+cd reproduce_2026_MRE_3D_same_immorable/
+cp ../reproduce_2026_MRE_3D_same_morable/input.deck .
+cd ../reproduce_2026_MRE_3D_same_immorable_long/
+cp ../reproduce_2026_MRE_3D_same_morable/input.deck .
+nvim
+cd ..
+nvim
+cd reproduce_2026_MRE_3D_same_morable_long/
+cp ../reproduce_2026_MRE_3D_same_immorable_long/input.deck 
+cp ../reproduce_2026_MRE_3D_same_immorable_long/input.deck  .
+nvim
+cd ..
+cd 2026_MRE_2D_short_800nc_6nc_flat_field_4_a_97/
+cp ../2026_MRE_2D_short_800nc_6nc_flat_field_4/input.deck .
+cd ../2026_MRE_2D_short_800nc_6nc_flat_field_4_a_97_LBW/
+cd ..
+nvim
+cd 2026_MRE_2D_short_800nc_6nc_flat_field_4_LBW/
+cp ../2026_MRE_2D_short_800nc_6nc_flat_field_4/input.deck .
+cd Simulation/2026/2026.5/5.25/
+cd 2026_MRE_2D_short_800nc_6nc_flat_field_4_LBW/
+nvim
+cd ../2026_MRE_2D_short_800nc_6nc_flat_field_4_a_97_LBW/
+cp ../2026_MRE_2D_short_800nc_6nc_flat_field_4_LBW/input .
+nvim
+cp ../2026_MRE_2D_short_800nc_6nc_flat_field_4_LBW/input.deck .
+nvim
+cd ~/Source_Code/Epoch/epoch/
+nvim
+ssh wzcluster
+exit
+cd Simulation/2026/2026.5/5.25
+nvim
+ssh wzcluster
+cd ..
+mkdir 5.26
+cd 5.26
+cp -rf ../5.25/2026_MRE_2D_short_800nc_6nc_flat_field_4/
+cp -rf ../5.25/2026_MRE_2D_short_800nc_6nc_flat_field_4/ .
+cp -rf ../5.25/2026_MRE_2D_short_800nc_6nc_flat_field_4_a_97/ .
+cp -rf ../5.25/2026_MRE_2D_short_800nc_6nc_flat_field_4_a_97_LBW/ .
+cp -rf ../5.25/2026_MRE_2D_short_800nc_6nc_flat_field_4_LBW/ .
+ll
+cd Simulation/2026/2026.5/5.17/re
+cd Simulation/2026/2026.5/5.17
+nvim
+cp ../5.25/reproduce_2026_MRE_3D_same_immorable/ .
+cp -rf ../5.25/reproduce_2026_MRE_3D_same_immorable/ .
+cp -rf ../5.25/reproduce_2026_MRE_3D_same_immorable_long/ .
+cp -rf ../5.25/reproduce_2026_MRE_3D_same_morable/ .
+cp -rf ../5.25/reproduce_2026_MRE_3D_same_morable_long/ .
+nvim
+ssh wzcluster
+nvim
+cd 
+nvim
+:
+cd Source_Code/Epoch/epoch/
+nivm
+\nvim
+nvim
+cd ~/Simulation/2026/2026.5/5.18/reproduce_2026_MRE_NBW_2D_immorable_short_800nc_focus_20/
+nivm
+nvim
+cd ~/Source_Code/
+mkdir Epoch_Hybrid
+cd Epoch_Hybrid/
+cp -rf /mnt/c/Users/17865/Desktop/Under Graduate/Laser Plasma/Source Code/Epoch_Hybrid_2023/ .
+cp -rf /mnt/c/Users/17865/Desktop/Under_Graduate/Laser Plasma/Source Code/Epoch_Hybrid_2023/ .
+cp -rf /mnt/c/Users/17865/Desktop/Under Graduate/Laser Plasma/Source Code/Epoch_Hybrid_2023/ .
+成都。。
+cd ..
+cd ~/Source_Code/Epoch_Hybrid_2021/
+ll
+# Remove all Zone.Identifier files recursively in current directory<\n>find . -type f -name "*:Zone.Identifier" -delete
+find . -type f -name "*:Zone.Identifier" -delete
+ls **/*:Zone.Identifier | each { |it| rm -f $it.name }
+cd Hybrid-PIC_York2021/
+ls **/*:Zone.Identifier | each { |it| rm -f $it.name }
+ls **/*Zone.Identifier | each { |it| rm -f $it.name }
+ls -a | where name =~ 'Zone.Identifier$' | each { |it| rm -f $it.name }
+ls **/*Zone.Identifier | each { |it| rm -f $it.name }
+ll
+ls -a | where name =~ '^Thumbs' | each { |it| rm -f $it.name }
+ls -a | where name =~ 'Zone.Identifier$|^Thumbs' | each { |it| rm -f $it.name }
+ls -a **/* | where name =~ 'Zone.Identifier$|/Thumbs(\.db.*)?$|/Thumbs$' | each { |it| rm -f $it.name }
+ls -a **/* | where name =~ 'Zone.Identifier$|/Thumbs(\.db.*)?$|/Thumbs$'
+ls -a **/* | where name =~ 'Zone.Identifier$|/Thumbs(\.db.*)?$|/Thumbs$' | each { |it| rm -f $it.name }
+ll
+cd Hybrid_paper_data/
+ll
+cd ../epoch-main/
+nvim
+cd Source_Code/Smilei_Spin_2025/
+ll
+cd Smilei_Spin_v2_2_3D_interpolator/
+git status
+cd ../../Epoch_2025/
+ll
+cd epoch/
+git status
+cd
+cd Source_Code/Smilei_Spin_2025/Smilei_Spin_v2_2_3D_interpolator/
+ll
+nvim
+git config --global --get user.name
+git config --global --get user.email
+git config --list
+cd ../../Epoch_2025/
+cd epoch/
+ll
+git config --list
+cd ../../Epoch_Hybrid_2021/Hybrid-PIC_York2021/
+git config --list
+git branch
+cd epoch-main/
+git branch
+ll
+git config
+git config --list
+cd ..
+cd..
+cd ../../Smilei_Spin_2025/Smilei_Spin_v2_2_3D_interpolator/
+ll
+git branch
+git branch -a
+cd /mnt/c/Users/
+cd `17865/Desktop/Under Graduate/Laser Plasma/Notes/`
+ll
+git status
+git config --list
+git config --global user.name yuhanjin 
+git config --list
+git log
+# 删除当前仓库的本地用户名<\n>git config --local --unset user.name<\n><\n># 删除当前仓库的本地邮箱<\n>git config --local --unset user.email
+git config --list
+git log
+git log --graph --oneline --all
+git add .
+git commit -m "Update the AGENTS & Review & Literature"
+git log
+git branch
+git restore .
+git log
+ll
+git reflog
+git status
+cd scripts/
+ll
+git status
+git log
+ll
+git reflog
+git branch
+git rebase -i HEAD~20
+git status
+nvim
+git add .
+git commit -m 'Update the clst2win'
+git status
+nvim
+git rebase -i HEAD~20
+git log
+git reflog
+git rebase -i HEAD~20
+git rebase -i HEAD~50
+git rebase --abort
+git log
+nvim
+cd ../dot_files/
+nivm
+nvim
+cd ../scripts/
+ll
+git log
+git statua
+git status
+git branch
+nvim
+nivm
+nvim
+cd ~/Source_Code/
+ll
+cd Smilei_Spin_2025/Smilei_Spin_v2_2_3D_interpolator/
+ll
+cd ..
+mv Smilei_Spin_v2_2_3D_interpolator/ Smilei_Spin
+ll
+cd Smilei_Spin/
+git status
+git log
+git add .
+git commit -m 'Update the 2D/3D Interpolator & SG Pusher'
+git status
+git log 
+git tag v2.2
+git tag spin_v2.2
+git reflog
+cd ..
+cd Epoch_2025/epoch/
+ll
+git status
+git add .
+git commit -m 'Init'
+git log
+git reflog
+cd ../..
+cd Epoch_Hybrid_2021/
+cd Hybrid-PIC_York2021/
+ll
+cd epoch-main/
+git status
+cd ../../../Smilei_2025/
+cd Smilei_v5_1/
+cd .
+cd ..
+mv Smilei_v5_1/ Smilei
+cd Smilei/
+git status
+git log
+git reflog
+cd ~/scripts/
+cd ~/Source_Code/Smilei_Spin_2025/Smilei_Spin/
+git branch
+nvim
+cd ~/scripts/
+nvim
+cd build_singularity_image/
+ll
+rm bd_sglt_envs.nu bd_sglt_images.nu tsf_sglt_images.nu
+ll
+cd ..
+cd singularity_def_fmt/
+ll
+nvim
+cd ..
+git status
+rm -rf singularity_def_fmt/
+ll
+git status
+cd build_singularity_image/
+ll
+cd Code_Program/
+ll
+cd Env/
+ll
+cd Epoch/
+ll
+rm epoch_env.def
+ll
+cd ../Smilei/
+ll
+cd ../Smilei_Spin/
+ll
+cd ../../Epoch/
+ll
+nu bd_pic_envs.nu epoch
+cd Epoch1d/
+ll
+rm build.sh template.def
+ll
+cd ../Epoch2d/
+rm build.sh template.def
+ll
+cd ../Epoch3d/
+rm build.sh template.def
+ll
+cd ../../Smilei/
+ll
+cd Smilei_v5_1/
+ll
+rm build.sh template.def
+ll
+cd ../
+mv Smilei_v5_1/ Smilei
+ll
+cd ../Smilei_Spin/
+ll
+cd Smilei_Spin_v1/
+ll
+cd ../Smilei_Spin_v2/
+ll
+rm smilei_spin_compile.def smilei_spin_no_compile.def
+ll
+cd ../Smilei_Spin_v2_1_2D_interpolator_unrelativistic/
+ll
+rm build.sh template.def
+ll
+cd ../Smilei_Spin_v2_2_3D_interpolator/
+ll
+rm build.sh template.def
+ll
+cd ../
+ll
+cd ../Env/Epoch/
+ll
+cd ..
+nvim
+cd Env/Smilei/
+ll
+nu bd_pic_envs.nu smilei
+ll
+cd ../Smilei_Spin/
+ll
+apptainer exec /home/yuhanjin/Code_Program/Env/Smilei/smilei_env.sif which mpicc
+apptainer exec /home/yuhanjin/Code_Program/Env/Smilei/smilei_env.sif ls /opt/.local/program/hdf5/lib
+apptainer exec /home/yuhanjin/Code_Program/Env/Smilei/smilei_env.sif python3 -c "import numpy, scipy"<\n><\n><\n><\n><\n>19:28<\n><\n>
+apptainer exec /home/yuhanjin/Code_Program/Env/Smilei/smilei_env.sif python3 -c "import numpy, scipy"
+nvim
+nu bd_pic_envs.nu smilei_spin
+ll
+cd ../../Epoch/
+ll
+bd_pic_images epoch1d
+nvim
+cd Epoch1d/
+ll
+cd Code_Program/Epoch/Epoch1d/
+ll
+bd_pic_images epoch2d
+bd_pic_images epoch3d
+cd ../Epoch2d/
+ll
+cd ../Epoch3d/
+ll
+cd ../../Smilei/
+cd Smilei_v5_1/
+ll
+bd_pic_images smilei
+nvim
+rm Smilei.sif
+ll
+cd ../../Smilei_Spin/Smilei_Spin_v2_2_3D_interpolator/
+ll
+bd_pic_images smilei_spin
+nvim
+exit
+test_pic_images all
+ll
+cd scripts/
+ll
+git status
+nvim
+cd build_singularity_image/pic_test_inputs/smilei/
+rm __pycache__/
+rm -rf __pycache__/
+cd ../smilei_spin/
+rm -rf __pycache__/
+ll
+cd ../smilei/
+ll
+cd ../../
+cd ../
+git statua
+git status
+git add .
+git commit -m 'Update the singularity & AGENTS'
+git_update ~/scripts/ 'Update the singularity'
+git status
+git log
+nvim
+cd ../dot_files/
+ll
+git status
