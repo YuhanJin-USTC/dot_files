@@ -2318,3 +2318,75 @@ nvim
 cd ../dot_files/
 ll
 git status
+git_update ~/dot_files/ 'Update the singularity'
+git ststua
+git status
+git reflog
+git log
+cd ../scripts/
+ll
+nvim
+exit
+update
+nvim
+update
+exit
+update
+nvim
+nivm
+nvi
+nvim
+cd dot_files/
+nvim
+sync_file
+cd ..
+cd temp/
+exit
+cd temp/
+ll
+mkdir jin
+touch jin
+nvim
+exit
+cd temp/
+cd ..
+clean_files ~/temp
+clean_files ~/temp --run
+cd temp/
+ll
+cd ..
+cd Simulation/
+clean_files .
+nvim
+cd ../scripts/
+nvim
+cd ..
+clean_files .
+clean_files ./dot_files/
+clean_files ./scripts/
+clean_files ./Source_Code/
+clean_files ./Source_Code/ --run
+clean_files ./Source_Code/
+clean_files ./Code_Program/
+cd scripts/
+cd ..
+git_update ~/scripts/ 'Update the update & clean & sync'
+cd scripts/
+git status
+git og
+git log
+cd ../dot_files/
+nvim
+eixt
+exit
+update_archlinux
+git_update ~/dot_files/ 'Update the clean & update & sync'
+cd dot_files/
+git log
+cd ..
+nvim
+nivm
+nvim
+cd dot_files/
+git status
+git commit -amend -m 'Update the sync'

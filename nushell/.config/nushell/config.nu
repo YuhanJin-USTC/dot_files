@@ -10,6 +10,8 @@ $env.config.shell_integration.osc133 = false
 
 $env.config.show_banner = false
 
+$env.PATH = ($env.PATH | prepend ($env.HOME | path join ".local" "bin"))
+
 $env.APPTAINER_CACHEDIR = '/home/yuhanjin/.apptainer/cache/'
 
 mkdir ($env.HOME | path join "temp")
@@ -51,11 +53,11 @@ def local2cluster [] {
 
 alias git_update = nu ~/scripts/git_update/git_update.nu 
 
-alias sync_file = nu ~/scripts/sync_file/sync_files.nu
+alias sync_files = nu ~/scripts/sync_file/sync_files.nu
 
 alias clst2win = nu ~/scripts/sync_file/cluster2windows.nu
 
-alias clean_file = nu ~/scripts/clean_file/clean_files.nu
+alias clean_files = nu ~/scripts/clean_file/clean_files.nu
 
 alias bd_pic_envs = nu ~/scripts/build_singularity_image/bd_pic_envs.nu
 
@@ -66,6 +68,8 @@ alias test_pic_images = nu ~/scripts/build_singularity_image/test_pic_images.nu
 alias tsf_clst_key = nu ~/scripts/transfer_cluster_key/tsf_clst_key.nu
 
 alias backup_archlinux = bash ~/scripts/backup_archlinux/backup.sh
+
+alias update_archlinux = bash ~/scripts/update_archlinux/update.sh
 
 alias asr_mt = nu ~/scripts/asr_mt_scripts/asr_mt.nu
 
