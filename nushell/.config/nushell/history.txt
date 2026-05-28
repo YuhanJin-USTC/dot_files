@@ -2451,3 +2451,4 @@ git pull origin main
 git status
 nvim
 git push
+git_update ~/dot_files/ 'Move the wezterm'
