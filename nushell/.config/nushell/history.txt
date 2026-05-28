@@ -2461,3 +2461,7 @@ git log
 git push -u origin main
 backup_archlinux
 git_update ~/scripts/ 'Update the key'
+git_update ~/dot_files/ 'Update the key'
+git pull --rebase origin main
+git add .
+git pull --rebase origin main
