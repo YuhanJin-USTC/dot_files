@@ -2452,3 +2452,12 @@ git status
 nvim
 git push
 git_update ~/dot_files/ 'Move the wezterm'
+nvim
+git push -u origin-main
+nvim
+git push -u origin main
+git pull origin main
+git log
+git push -u origin main
+backup_archlinux
+git_update ~/scripts/ 'Update the key'
