@@ -2390,3 +2390,56 @@ nvim
 cd dot_files/
 git status
 git commit -amend -m 'Update the sync'
+git add .
+git commit -amend -m 'Update the sync'
+git commit --amend -m 'Update the sync'
+git log
+git status
+cd ..
+sync_files
+exit
+ssh hfcluster
+nvi 
+nvim
+ssh hfcluster
+nvim
+sync_files
+sync_files --dry-run
+exit
+clean_files ./Code_Program/
+nvim
+cd scripts/
+ll
+nvim
+git status
+git_update ~/scripts/ 'Update the backup & restore'
+git status
+backup_archlinux
+nvim
+cd ../dot_files/
+cd `/mnt/c/Users/17865/3D Objects/`
+ll
+cd ..
+ll
+mkdir .config
+cd .config/
+cd wezterm
+mkdir wezterm
+cd wezterm/
+touch wezterm.lua
+nvim
+:q
+nvim
+nviim
+nvim
+exit
+cd
+ll
+exit
+ll
+nvim
+ll
+nvim
+exit
+backup_archlinux
+git_update ~/scripts/ 'Update the backup & restore, move the wezterm'
