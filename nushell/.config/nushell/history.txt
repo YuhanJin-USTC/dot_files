@@ -2465,3 +2465,6 @@ git_update ~/dot_files/ 'Update the key'
 git pull --rebase origin main
 git add .
 git pull --rebase origin main
+git add .
+git commit -m '?'
+git pull --rebase origin main
