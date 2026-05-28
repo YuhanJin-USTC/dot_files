@@ -2443,3 +2443,4 @@ nvim
 exit
 backup_archlinux
 git_update ~/scripts/ 'Update the backup & restore, move the wezterm'
+git_update ~/dot_files/ 'Move the wezterm'
