@@ -2471,3 +2471,99 @@ git pull --rebase origin main
 git stash
 git pull --rebase origin main
 git push -f origin main
+git_update ~/dot_files/ 'Update the key'
+git reflog
+ll
+nvim
+cd 
+nvim
+exit
+cd Source_Code/Epoch_2025/epoch/
+nvim
+cd ../..
+cd ../
+cd Simulation/
+cd 2026/2026.5/
+mkdir 5.29
+cd 5.29
+mkdir test_laser_field_4
+mkdir test_laser_field_2
+cd test_laser_field_2/
+cp ../../../2026.5/5.26/2026_MRE_2D_short_800nc_6nc_flat_field_4/input.deck .
+nvim
+cd ../test_laser_field_4/
+cp ../test_laser_field_2/input.deck .
+nvim
+ssh tycluster
+cd ~/Source_Code/Epoch_2025/epoch/
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.29/test_laser_field_2/Results_input_20260529_130814 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.29/test_laser_field_2/Data/field/ey ey sdf -n
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.29/test_laser_field_2/Results_input_20260529_130814 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.29/test_laser_field_2/Data/field/ey ey sdf
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.29/test_laser_field_2/Results_input_20260529_130814 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.29/test_laser_field_2/Data/field/bz bz sdf -n
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.29/test_laser_field_2/Results_input_20260529_130814 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.29/test_laser_field_2/Data/field/bz bz sdf
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.29/test_laser_field_4/Results_input_20260529_130814 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.29/test_laser_field_4/Data/field/ey ey sdf -n
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.29/test_laser_field_4/Results_input_20260529_130814 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.29/test_laser_field_4/Data/field/ey ey sdf
+clst2win tycluster /work/home/yuhanjin/Simulation/2026/2026.5/5.29/test_laser_field_4/Results_input_20260529_130814 /mnt/z/金虞焓/Post_Process/Matlab/simulation/2026/2026.5/5.29/test_laser_field_4/Data/field/bz bz sdf
+cd Simulation/2026/2026.5/5.29/
+cp -rf ../5.26/2026_MRE_2D_short_800nc_6nc_flat_field_4/ .
+cp -rf ../5.26/2026_MRE_2D_short_800nc_6nc_flat_field_4_LBW/ .
+mv 2026_MRE_2D_short_800nc_6nc_flat_field_4/ 2026_MRE_2D_short_800nc_6nc_flat_field_2
+mv 2026_MRE_2D_short_800nc_6nc_flat_field_4_LBW/ 2026_MRE_2D_short_800nc_6nc_flat_field_2_LBW/
+ll
+nvim
+cd 2026_MRE_2D_short_800nc_6nc_flat_field_2_LBW/
+rm input.deck 
+cp ../2026_MRE_2D_short_800nc_6nc_flat_field_2/input.deck .
+nivm
+nvim
+ssh wzcluster
+ll
+nvim
+cd Simulation/
+ll
+rm PIC_WORKFLOW.md
+rm -rf data_archive/ indexes/ projects/ templates/ tools/
+ll
+cd ~/Source_Code/
+cd Epoch_2025/epoch/
+nvim
+exit
+cd Source_Code/Epoch_2025/epoch/
+nvim
+ssh wzcluster
+cd Source_Code/
+cd Epoch_2025/epoch/
+nvim
+ssh wzcluster
+nvim
+cd ~/Simulation/2026/
+cd ..
+\ll
+ll
+mkdir ctr_vortex_test_am
+cd ctr_vortex_test_am/
+mkdir 20260605_test_am
+cd .
+cd ..
+mv ctr_vortex_test_am/ ctr_vortex
+ll
+cd ctr_vortex/
+ll
+cd 20260605_test_am/
+cp /mnt/c/Users/17865/Desktop/input.py .
+nvim
+exit
+nvim
+cd Simulation/ctr_vortex/20260605_test_am/
+nvim
+cd ~/Source_Code/Epoch_2025/epoch/
+nvim
+:q
+cd ~/Simulation/ctr_vortex/20260605_test_am/
+cd Source_Code/Epoch_2025/epoch/
+nvim
+cd 
+backup_archlinux
+cd dot_files/
+git status
+ll
+nvim
