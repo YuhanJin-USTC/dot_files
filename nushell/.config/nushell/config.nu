@@ -73,6 +73,16 @@ alias update_archlinux = bash ~/scripts/update_archlinux/update.sh
 
 alias asr_mt = nu ~/scripts/asr_mt_scripts/asr_mt.nu
 
+alias run_smilei = bash ~/Code_Program/Smilei/smilei_run.sh
+
+alias run_smilei_spin = bash ~/Code_Program/Smilei_Spin/smilei_spin_run.sh
+
+alias run_epoch_1d = bash ~/Code_Program/Epoch/epoch1d_run.sh
+
+alias run_epoch_2d = bash ~/Code_Program/Epoch/epoch2d_run.sh
+
+alias run_epoch_3d = bash ~/Code_Program/Epoch/epoch3d_run.sh
+
 def test_fatido [] {
 
   cd ~/Code_Program/test/

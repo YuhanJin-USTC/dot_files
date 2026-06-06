@@ -2567,3 +2567,186 @@ cd dot_files/
 git status
 ll
 nvim
+git_update ~/dot_files/ 'Update the nvim fortran'
+nvim
+ll
+cd ..
+ll
+cd 
+cd Simulation
+mkdir test_smilei_am
+cd test_smilei_am/
+mkdir 20260605_lg_1_1_am
+mkdir 20260605_lg_1_1_ca
+nvim
+cd Simulation/2026/
+nvim
+:q
+nvim
+cd Simulation/2026/2026.3/3.9/smilei_3D_LG_RCP_l0_p0/
+nvim
+nvim
+\nvim
+nvim
+eixt
+exit
+cd Simulation/test_smilei_am/20260605_lg_1_1_am/
+ll
+cd ..
+ll
+nvim
+run_smilei ./20260605_lg_1_1_am/ 4
+run_smilei ./20260605_lg_1_1_am/input.py 4
+run_smilei ./20260605_lg_1_1_am/input.py
+cd Simulation/
+nvim
+cd Simulation/2026/2026.3/3.9/epoch_3D_LG_RCP_l+1_p0/
+ll
+run_epoch_3d input.deck 4
+run_smilei ./20260605_lg_1_1_ca/input.py 
+exirt
+exit
+exit
+cd Simulation/test_smilei_am
+rm -rf Results_input_20260605_182648/ Results_input_20260605_182717/
+cd 20260605_lg_1_1_am/
+run_smilei input.py 4
+nvim
+run_smilei input.py 2
+run_smilei input.py
+nvim
+rm -rf Results_input_20260605_183643 Results_input_20260605_183818/ Results_input_20260605_183823/
+ll
+run_smilei input.py
+cd ../20260605_lg_1_1_ca/
+cd Simulation/ctr_vortex/
+nivm
+nvim
+run_smilei input.py 4
+nvim
+:q
+nvim
+:q
+nvim
+cd ../test_smilei_am/
+nvim
+rm -rf Results_input_20260605_184032/
+cd 20260605_lg_1_1_am/
+rm -rf Results_input_20260605_184011/
+run_smilei input.py 4
+rm -rf Results_input_20260605_192057/
+run_smilei input.py 
+run_smilei input.py 8
+run_smilei input.py 6
+run_smilei input.py 14
+run_smilei input.py 12
+rm -rf Results_input_20260605_192543 Results_input_20260605_192627/ Results_input_20260605_192655/ Results_input_20260605_192701/
+run_smilei input.py 10
+run_smilei input.py 8
+run_smilei input.py
+cd Simulation/test_smilei_am/20260605_lg_1_1_am/
+cd ../20260605_lg_1_1_ca/
+ll
+rm -rf Results_input_20260605_192717/ Results_input_20260605_192723/ Results_input_20260605_192739/
+ll
+nvim
+cd ../20260605_lg_1_1_am/
+nvim
+cd ~/scripts/
+git status
+cd ~/dot_files/
+git status
+cd ~/Simulation/test_smilei_am/
+nvim
+cd ~/Source_Code/Smilei_2025/Smilei/
+nvim
+cd ~/Simulation/test_smilei_am/
+nvim
+cd 20260605_lg_1_1_am/
+run_smilei input.py
+nivm
+nvim
+rm -rf Results_input_20260605_201105/
+run_smilei input.py 8
+nvim
+run_smilei input.py
+nvim
+run_smilei input.py
+nvim
+ll
+rm -rf Results_input_20260605_192143 Results_input_20260605_202944/ Results_input_20260605_203211/
+run_smilei input.py
+nvim
+run_smilei input.py
+nvim
+run_smilei input.py
+nvim
+run_smilei input.py
+nvim
+run_smilei input.py
+nvim
+run_smilei input.py
+nvim
+run_smilei input.py
+nvim
+run_smilei input.py
+nvim
+rm -rf Results_input_20260605_203842/ Results_input_20260605_204035/ Results_input_20260605_204442/ Results_input_20260605_204735/
+rm -rf Results_input_20260605_204954/ Results_input_20260605_205528/ Results_input_20260605_205930/
+ll
+nvim
+cd ../../ctr_vortex/20260605_test_am/
+nvim
+ssh wzcluster
+ssh tycluster
+run_smilei input.py 8
+ssh wzcluster
+cd ../../ctr_vortex/20260605_test_am/
+nvim
+cd Simulation/ctr_vortex/20260605_test_am/
+nvim
+wsl
+nvim
+ssh wzcluster
+nvim
+ssh wzcluster
+nvim
+ssh wzcluster
+nvim
+ssh wzcluster
+cd 
+cd scripts/
+nvim
+sync_files --dry-run
+exit
+nvim
+clean_files ./Code_Program/
+exit
+sync_fils Matlab
+sync_files Matlab
+update_archlinux 
+update_archlinux  --run
+yay -G alist-bin<\n>cd alist-bin<\n>less PKGBUILD<\n>less alist.service
+ll
+cd 
+ll
+tree
+clear
+cd alist-bin/
+ll
+less PKGBUILD<\n>less alist.service
+cd
+rm -rf alist-bin/
+pacman -Ql alist-bin
+systemctl cat alist
+ss -lntp
+ps aux | grep alist
+journalctl -u alist -n 100 --no-pager
+exit
+cler
+update_archlinux 
+sync_files Simulation
+clean_files ./Code_Program/
+git_update ~/scripts/ 'Update the sync & clean & update'
+cd dot_files/
+git status
