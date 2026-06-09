@@ -53,11 +53,11 @@ def local2cluster [] {
 
 alias git_update = nu ~/scripts/git_update/git_update.nu 
 
-alias sync_files = nu ~/scripts/sync_file/sync_files.nu
+alias sync_files = nu ~/scripts/sync_files/sync_files.nu
 
-alias clst2win = nu ~/scripts/sync_file/cluster2windows.nu
+alias clst2win = nu ~/scripts/sync_files/cluster2windows.nu
 
-alias clean_files = nu ~/scripts/clean_file/clean_files.nu
+alias clean_files = nu ~/scripts/clean_files/clean_files.nu
 
 alias bd_pic_envs = nu ~/scripts/build_singularity_image/bd_pic_envs.nu
 
@@ -73,15 +73,15 @@ alias update_archlinux = bash ~/scripts/update_archlinux/update.sh
 
 alias asr_mt = nu ~/scripts/asr_mt_scripts/asr_mt.nu
 
-alias run_smilei = bash ~/Code_Program/Smilei/smilei_run.sh
+alias run_smilei = bash ~/scripts/run_pic/smilei_run.sh
 
-alias run_smilei_spin = bash ~/Code_Program/Smilei_Spin/smilei_spin_run.sh
+alias run_smilei_spin = bash ~/scripts/run_pic/smilei_spin_run.sh
 
-alias run_epoch_1d = bash ~/Code_Program/Epoch/epoch1d_run.sh
+alias run_epoch_1d = bash ~/scripts/run_pic/epoch1d_run.sh
 
-alias run_epoch_2d = bash ~/Code_Program/Epoch/epoch2d_run.sh
+alias run_epoch_2d = bash ~/scripts/run_pic/epoch2d_run.sh
 
-alias run_epoch_3d = bash ~/Code_Program/Epoch/epoch3d_run.sh
+alias run_epoch_3d = bash ~/scripts/run_pic/epoch3d_run.sh
 
 def test_fatido [] {
 

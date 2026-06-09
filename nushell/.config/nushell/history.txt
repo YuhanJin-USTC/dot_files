@@ -2750,3 +2750,152 @@ clean_files ./Code_Program/
 git_update ~/scripts/ 'Update the sync & clean & update'
 cd dot_files/
 git status
+git_update ~/dot_files/ 'Add the PIC run scripts'
+sync_files Matlab
+nvim
+sync_files Matlab --run
+clst2win wzcluster /work/home/yuhanjin/Simulation/ctr_vortex/20260605_test_am/Results_input_20260606_133514 /mnt/z/金虞焓/Post_Process/Matlab/simulation/ctr_vortex/20260605_test_am/Data/
+nvim
+cd scripts/
+ll
+mkdir run_pic
+cd run_pic/
+cp ~/Code_Program/Epoch/epoch1d_run.sh
+cp ~/Code_Program/Epoch/epoch1d_run.sh .
+cp ~/Code_Program/Epoch/epoch2d_run.sh .
+cp ~/Code_Program/Epoch/epoch3d_run.sh .
+cp ~/Code_Program/Smilei/smilei_run.sh .
+cp ~/Code_Program/Smilei_Spin/smilei_spin_run.sh .
+nvim
+cd ~/dot_files/
+nvim
+cd ~/Simulation/ctr_vortex/20260605_test_am/
+nvim
+cd ~/scr
+cd ~/scripts/
+nvim
+cd ~/Simulation/test_smilei_am/
+ll
+cd 20260605_lg_1_1_am/
+ll
+exit
+cd Simulation/ctr_vortex/20260605_test_am/
+cd ../../test_smilei_am/20260605_lg_1_1_am/
+run_smilei input.py
+rm -rf Results_input_20260606_150236/
+cd ../../2026/2026.3/3.9/epoch_3D_LG_RCP_l+1_p0/
+ll
+rm -rf Results_input_20260605_182949/ Results_input_20260605_183554/
+run_epoch_3d input.deck
+.
+run_epoch_3d input.deck 4
+nvim
+exit
+cd Simulation/2026/2026.3/3.9/epoch_3D_LG_RCP_l+2_p0/
+cd ../epoch_3D_LG_RCP_l+1_p0/
+ll
+run_rpoch_3d
+run_epoch_3d
+run_epoch_3d input.deck 4
+.
+run_epoch_3d input.deck 2
+.
+run_epoch_3d input.deck1
+run_epoch_3d input.deck
+.
+run_epoch_3d input.deck
+.
+run_epoch_3d input.deck
+.
+cd ../../../../test_smilei_am/20260605_lg_1_1_am/
+run_smilei input.py
+rm -rf Results_input_20260606_151411/
+cd ../../2026/2026.3/3.3.9
+cd ../../2026/2026.3/3.9
+cd epoch_3D_LG_RCP_l+1_p0/
+ll 
+rm -rf Results_input_20260606_150315/
+rm -rf Results_input_20260606_150332/ Results_input_20260606_150707/ Results_input_20260606_150715/ Results_input_20260606_150734/
+rm -rf Results_input_20260606_150744/ Results_input_20260606_151027/ Results_input_20260606_151257/
+ll
+cd 
+exit
+cd scripts/
+git statuai
+git stats
+git status
+git_update ~/scripts/ 'Update the PIC run scripts'
+cd ../dot_files/
+git status
+cd ..
+clst2win wzcluster /work/home/yuhanjin/Simulation/ctr_vortex/20260605_test_am/Results_input_20260606_133514 /mnt/z
+clst2win wzcluster /work/home/yuhanjin/Simulation/ctr_vortex/20260605_test_am/Results_input_20260606_133514 /mnt/z/金虞焓/Post_Process/Matlab/simulation/ctr_vortex/20260605_test_am/Data/ Fiel .h5 -n
+clst2win wzcluster /work/home/yuhanjin/Simulation/ctr_vortex/20260605_test_am/Results_input_20260606_133514 /mnt/z/金虞焓/Post_Process/Matlab/simulation/ctr_vortex/20260605_test_am/Data/ Fiel .h5
+cd Simulation/ctr_vortex/20260605_test_am/
+cd ..
+mkdir 20260606_am_high
+cd 20260606_am_high/
+cp ../20260605_test_am/input.py .
+nvim
+cd Simulation/ctr_vortex/20260606_am_high/
+nvim
+:q
+nvim]
+nvim
+cd Simulation/ctr_vortex/20260606_am_high/
+nvim
+Delete command-generated junk or temporary files that you created as soon as they are no longer needed, while respecting the deletion rules above.Delete command-generated junk or temporary files that you created as soon as they are no longer needed, while respecting the deletion rules above.Delete command-generated junk or temporary files that you created as soon as they are no longer needed, while respecting the deletion rules above.Delete command-generated junk or temporary files that you created as soon as they are no longer needed, while respecting the deletion rules above.Delete command-generated junk or temporary files that you created as soon as they are no longer needed, while respecting the deletion rules above.Delete command-generated junk or temporary files that you created as soon as they are no longer needed, while respecting the deletion rules above.Delete command-generated junk or temporary files that you created as soon as they are no longer needed, while respecting the deletion rules above.Delete command-generated junk or temporary files that you created as soon as they are no longer needed, while respecting the deletion rules above.Delete command-generated junk or temporary files that you created as soon as they are no longer needed, while respecting the deletion rules above.Delete command-generated junk or temporary files that you created as soon as they are no longer needed, while respecting the deletion rules above.Delete command-generated junk or temporary files that you created as soon as they are no longer needed, while respecting the deletion rules above.Delete command-generated junk or temporary files that you created as soon as they are no longer needed, while respecting the deletion rules above.Delete command-generated junk or temporary files that you created as soon as they are no longer needed, while respecting the deletion rules above.Delete command-generated junk or temporary files that you created as soon as they are no longer needed, while respecting the deletion rules above.Delete command-generated junk or temporary files that you created as soon as they are no longer needed, while respecting the deletion rules above.Delete command-generated junk or temporary files that you created as soon as they are no longer needed, while respecting the deletion rules above.
+nvim
+ssh wzcluster
+exit
+exit
+nvim
+cd Simulation/ctr_vortex/20260606_am_high/
+nvim
+ssh wzcluster
+exit
+cd Simulation/ctr_vortex/20260606_am_high/
+nvim
+ssh wzcluster
+sync_files Matlab --run
+nvim
+sync_files Matlab --run
+clst2win wzcluster /work/home/yuhanjin/Simulation/ctr_vortex/20260606_am_high/Results_input_20260607_220311 /mnt/z/金虞焓/Post_Process/Matlab/Simulation/ctr_vortex/20260606_am_high/Data/ Fie .h5 -n
+exit
+clst2win /work/home/yuhanjin/Simulation/ctr_vortex/20260606_am_high/Results_input_20260607_220311 /mnt/z/金虞焓/Post_Process/Matlab/simulation/ctr_vortex/20260606_am_high/Data/ Pro .h5 
+clst2win /work/home/yuhanjin/Simulation/ctr_vortex/20260606_am_high/Results_input_20260607_220311 /mnt/z/金虞焓/Post_Process/Matlab/Simulation/ctr_vortex/20260606_am_high/Data/ Pro .h5 
+clst2win wzcluster /work/home/yuhanjin/Simulation/ctr_vortex/20260606_am_high/Results_input_20260607_220311 /mnt/z/金虞焓/Post_Process/Matlab/Simulation/ctr_vortex/20260606_am_high/Data/ Pro .h5 
+clst2win wzcluster /work/home/yuhanjin/Simulation/ctr_vortex/20260606_am_high/Results_input_20260607_220311 /mnt/z/金虞焓/Post_Process/Matlab/Simulation/ctr_vortex/20260606_am_high/Data/ Fie .h5
+clst2win wzcluster /work/home/yuhanjin/Simulation/ctr_vortex/20260606_am_high/Results_input_20260607_220311 /mnt/z/金虞焓/Post_Process/Matlab/Simulation/ctr_vortex/20260606_am_high/Data/ Fie .h5 --run
+cd Simulation/ctr_vortex/20260606_am_high/
+nvim
+cd ..
+mkdir 20260608_am_probe
+cd 20260608_am_probe/
+cp ../20260606_am_high/input.py .
+nvim
+:q
+cd Simulation/ctr_vortex/20260608_am_probe/
+nvim
+\:q
+nvim
+:q
+ssh wzcluster
+nvim
+\:q
+nvim
+nvim
+clst2win wzcluster /work/home/yuhanjin/Simulation/ctr_vortex/20260608_am_probe/Results_input_20260608_153056 /mnt/z/金虞焓/Post_Process/Matlab/Simulation/ctr_vortex/20260606_am_probe/Data/ Fie h5 
+clst2win wzcluster /work/home/yuhanjin/Simulation/ctr_vortex/20260608_am_probe/Results_input_20260608_153056 /mnt/z/金虞焓/Post_Process/Matlab/Simulation/ctr_vortex/20260606_am_probe/Data/ Pro h5 
+clst2win wzcluster /work/home/yuhanjin/Simulation/ctr_vortex/20260608_am_probe/Results_input_20260608_153056 /mnt/z/金虞焓/Post_Process/Matlab/Simulation/ctr_vortex/20260606_am_probe/Data/ Pro h5 --run
+nvim
+ssh wzcluster
+cd Simulation/ctr_vortex/20260608_am_probe/
+ssh wzcluster
+cd Simulation/ctr_vortex/20260608_am_probe/
+nvim
+cd ~/scripts/
+git status
+cd ../dot_files/
+git status
+git_update ~/scripts/ 'Recover the sync & clean'
