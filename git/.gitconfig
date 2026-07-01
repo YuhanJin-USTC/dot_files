@@ -9,3 +9,5 @@
 	proxy = https://127.0.0.1:7890
 [github]
 	user = YuhanJin-USTC
+[init]
+	defaultBranch = main
