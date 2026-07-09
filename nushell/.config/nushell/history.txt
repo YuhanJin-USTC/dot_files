@@ -78,3 +78,113 @@ git branch us
 git branch
 git switch us
 git status
+git add .
+git commit -m 'Update US configs'
+git push
+git push --set-upstream origin us
+git log
+nvim
+cd 
+ssh wzcluster
+ssh tycluster
+exi
+exit
+cd Simulation/test_sim/test_epoch/
+nvim
+exit
+cd Simulation/test_sim/test_epoch/
+cp ./20260529_epoch_test_field_order_4/ ./20260529_epoch_test_field_order_4_grid_48
+cp -rf ./20260529_epoch_test_field_order_4/ ./20260529_epoch_test_field_order_4_grid_48/
+cp -rf ./20260529_epoch_test_field_order_4/ ./20260529_epoch_test_field_order_4_grid_48
+ll
+mv 20260529_epoch_test_field_order_4_grid_48/ 20260709_epoch_test_field_order_4_grid_48/
+ll
+cd 20260709_epoch_test_field_order_4_grid_48/
+nvim
+cp ../../../qed_cone_pair/lbw/20260630_lbw_a_150/epoch_jobsub.sh .
+nvim
+cd ..
+cp -rf 20260709_epoch_test_field_order_4_grid_48/ 20260709_epoch_test_field_order_4_grid_64
+nvim
+cd ../../qed_cone_pair/lbw/
+ll
+cp -rf 20260630_lbw_a_150/ 20260630_lbw_a_150_cone_400
+nvim
+cd ../
+ll
+mkdir numerical_heating
+cd numerical_heating/
+cd Simulation/qed_cone_pair/lbw/
+nvim
+exit
+cp -rf ../lbw/20260709_lbw_a_150_cone_400 20260709_nh_5b
+ll
+nvim
+cd ../lbw/20260709_lbw_a_150_cone_400/
+nvim
+cd ..
+cp -rf 20260709_lbw_a_150_cone_400/ 20260709_lbw_a_150_cone_800
+nvim
+cd 20260709_lbw_a_150_cone_800/
+rm input.deck
+cp ../20260709_lbw_a_150_cone_400/input.deck .
+nvim
+nivm
+nvim
+cd ../20260709_lbw_a_150_cone_400/
+rm input.deck
+cp ../20260709_lbw_a_150_cone_800/input.deck .
+nvim
+cd ../../numerical_heating/
+nvim
+cd 20260709_nh_5b/
+rm input.deck
+cp ../../lbw/20260709_lbw_a_150_cone_800/input.deck .
+nvim
+cd ..
+cp -rf 20260709_nh_5b/ 20260709_nh_pre
+cp -rf 20260709_nh_5b/ 20260709_nh_diff
+cd ~/scripts/
+nvim
+exit
+clear
+nvim
+cd scripts/
+nvim
+update_archlinux --help
+clean_files --help
+bd_pic_images --help
+backup_archlinux --help
+nvim
+which tree-sitter
+tree-sitter
+nvim
+sudo pacman -S tree-sitter-cli
+sudo pacman -S base-devel
+tree-sitter --version
+nvim
+backup_archlinux
+git branch
+nvim
+cd ~/dot_files/
+git branch
+nvim
+cd ../scripts/
+git status
+nvim
+:q
+git add .
+git commit -m 'Normalize the scripts'
+git status
+git push
+cd ../scripts/
+cd ../dot_files/
+git merge --help
+git --help
+nvim
+git branch
+git merge
+git switch main
+git status
+git switch us
+git status
