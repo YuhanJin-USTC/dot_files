@@ -1,6 +1,80 @@
-rm history.txt
-ll
-backup_archlinux
-cd ~/scripts/
 nvim
-git_update ~/scripts/
+:q
+nvim
+git status
+nvim
+git status
+exit
+win2clst --help
+clst2win --help
+clean_files --help
+update_archlinux --help
+win2clst --help
+nvim
+ncim
+nvim
+win2clst hfcluster ~/Code_Program/Epoch/ /Code_Program/Epoch/
+nvim
+win2clst hfcluster ~/Code_Program/Epoch/ /Code_Program/Epoch/
+win2clst hfcluster ~/Code_Program/Epoch/ /Code_Program/Epoch/ --run
+exit
+win2clst hfcluster ~/Code_Program/Epoch/ /Code_Program/Epoch/
+nvim
+win2clst hfcluster ~/Code_Program/Epoch/ Code_Program/Epoch/
+exit
+win2clst hfcluster ~/Code_Program/Epoch/ Code_Program/Epoch/ --run
+win2clst tycluster ~/Code_Program/Epoch/ Code_Program/Epoch/
+cd scripts/
+git status
+git_update ~/scripts/ 'Add win2cluster sync script'
+git status
+git push
+ping githu
+ping github.com
+git push
+git log
+git push
+win2clst wzcluster ~/Code_Program/Epoch/ Code_Program/Epoch/ --run
+nvim
+git push
+nvim
+git config
+cd 
+git config
+git --help
+win2clst tycluster ~/Code_Program/Epoch/ Code_Program/Epoch/ --run
+git config --global --list
+git_update ~/scripts/ 'Update'
+cd scripts/
+git plog
+git log
+nvim
+exit
+cd scripts/
+git push
+nvim
+git remote -v
+nvim
+git push
+exit
+cd scripts/
+git push
+nvim
+ssh -T git@github.com
+git remote -v
+git remote set-url origin git@github.com:YuhanJin-USTC/scripts.git
+git remote -v
+cd ../dot_files/
+git remote set-url origin git@github.com:YuhanJin-USTC/dot_files.git
+git remote -v
+cd ../Simulation/
+git remote -v
+cd ../scripts/
+git push
+git log
+cd ../dot_files/
+git status
+git branch us
+git branch
+git switch us
+git status

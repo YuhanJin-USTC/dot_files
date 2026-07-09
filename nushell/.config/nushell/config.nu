@@ -57,6 +57,8 @@ alias sync_files = nu ~/scripts/sync_files/sync_files.nu
 
 alias clst2win = nu ~/scripts/sync_files/cluster2windows.nu
 
+alias win2clst = nu ~/scripts/sync_files/windows2cluster.nu
+
 alias clean_files = nu ~/scripts/clean_files/clean_files.nu
 
 alias bd_pic_envs = nu ~/scripts/build_singularity_image/bd_pic_envs.nu
