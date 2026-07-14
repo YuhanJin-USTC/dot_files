@@ -59,7 +59,7 @@ alias clst2win = nu ~/scripts/sync_files/cluster2windows.nu
 
 alias win2clst = nu ~/scripts/sync_files/windows2cluster.nu
 
-alias clean_files = nu ~/scripts/clean_files/clean_files.nu
+alias clean_files = ~/scripts/clean_files/clean_files
 
 alias bd_pic_envs = nu ~/scripts/build_singularity_image/bd_pic_envs.nu
 
@@ -85,28 +85,7 @@ alias run_epoch_2d = bash ~/scripts/run_pic/epoch2d_run.sh
 
 alias run_epoch_3d = bash ~/scripts/run_pic/epoch3d_run.sh
 
-def test_fatido [] {
-
-  cd ~/Code_Program/test/
-
-  sudo singularity run ~/Code_Program/smilei_fatido/smilei_fatido_compiled.sif smilei ./input.py
-
-  sudo singularity run ~/Code_Program/fatido/fatido mpirun -n 4 ./input_fatido.py
-}
-
-def test_smilei [] {
-
-  cd ~/Code_Program/test/
-
-  sudo singularity run ~/Code_Program/smilei_fatido/smilei_fatido ./input.py e> err.log
-}
-
-def test_warpx [] {
-
-  cd ~/Code_Program/test/
-
-  sudo singularity run ~/Code_Program/warpx_3d/warpx_3d ./input_warpx
-}
+alias update_iwan = ~/scripts/update_iwan_routes/update_iwan_routes
 
 def tonushell [] {
 
