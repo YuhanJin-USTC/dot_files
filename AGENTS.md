@@ -1,59 +1,98 @@
-# AGENTS.md
+# dot_files Agent Instructions
 
-## Core Purpose
+## Scope
 
-This dotfiles project exists to improve research efficiency.
+These instructions apply to `/home/yuhanjin/dot_files`. Explicit user
+instructions take priority within the authorized scope. Keep shared rules here;
+add no nested `AGENTS.md` unless a package gains a durable local difference.
 
-All changes should support the user's laser-plasma physics research workflow, especially theory, PIC simulation, cluster usage, containerized research software, and fast editing/shell automation. Prefer practical improvements that reduce friction in daily work with tools such as Smilei, EPOCH, WarpX, FaTiDo, Geant4, Apptainer/Singularity, Neovim, Nushell, and HPC clusters.
+This personal Stow repository should reduce friction in laser-plasma theory,
+PIC simulation, cluster or container use, and daily editing or shell work. Its
+tools include Smilei, EPOCH, WarpX, FaTiDo, Geant4,
+Apptainer/Singularity, Neovim, Nushell, and HPC systems.
 
-## Project Shape
+## Layout
 
-This repository uses a Stow-style layout. Keep each package self-contained:
+Keep every package self-contained:
 
 - `nvim/`: Neovim Lua configuration and plugins.
-- `nushell/`: shell startup config, aliases, cluster sync helpers, and research workflow commands.
+- `nushell/`: startup configuration, aliases, cluster synchronization helpers,
+  and research commands.
 - `topiary/`: Nushell formatting support and tests.
-- `git/`, `ssh/`, `aria2/`, `rclone/`: local system and network tool configuration.
+- `git/`, `ssh/`, `aria2/`, `rclone/`: system and network-tool configuration.
 
-Do not move files between packages unless the user asks for a layout change.
+Do not move files between packages unless the user requests a layout change.
 
-## Code Style
+## Change Rules
 
-Keep style consistent with the surrounding file.
+- Read affected files, callers, and nearby patterns. Trace Stow destinations,
+  paths, commands, plugin order, and effective behavior when relevant.
+- Make small, direct changes; preserve package boundaries, naming, public
+  commands, and unrelated content.
+- Match local style. Prefer simple table-driven Lua, clear Nushell pipelines
+  with existing Topiary formatting, and POSIX/Bash-clear shell snippets unless
+  the file already uses another language.
+- Add no framework, plugin manager, formatter, or abstraction layer unless it
+  solves the requested workflow problem.
+- Keep comments minimal. Explain only non-obvious workflow, environment, or
+  tool behavior; prefer short English. Short Chinese comments remain acceptable
+  when they match nearby text or clarify a local research workflow. Avoid
+  tutorials, narration, and restating code.
 
-- Prefer small, direct changes over broad rewrites.
-- Preserve existing module boundaries and naming patterns.
-- Lua config should stay simple and table-driven where possible.
-- Nushell scripts should use clear pipelines and existing Topiary formatting.
-- Shell snippets should remain POSIX/Bash-clear unless the file already uses another style.
-- Avoid adding new frameworks, plugin managers, formatters, or abstraction layers unless they solve a real workflow problem.
-- Do not refactor unrelated code while making a requested change.
+## Safety
 
-## Comment Style
+- Do not delete, prune, clean, move, or overwrite user content without approval
+  for the exact path and purpose.
+- Do not expose secrets, tokens, private hosts, keys, passwords, or sync
+  credentials. Read sensitive values only when necessary and keep them out of
+  commands, logs, and responses.
+- Do not run Git commands unless the user explicitly requests Git work.
+- Inspect SSH, rclone, proxy, cluster, and sync workflows before changing them.
+  Do not run Stow, reload live configuration, contact remote systems, or apply
+  system changes merely to validate an edit.
 
-Comments must stay minimal and consistent.
+## Research Workflow Contract
 
-- Add comments only when they explain non-obvious workflow, environment, or tool behavior.
-- Prefer short English comments.
-- Short Chinese comments are acceptable when they match nearby existing comments or clarify a local research workflow.
-- Avoid tutorial-style comments in new code.
-- Do not add noisy comments that simply restate the code.
+- Before substantive work, run the canonical `researchctl.py context` for the
+  exact target with `--recent 3 --json`, then read the bounded V0 root context.
+- Do not create Cards or Worklogs or reconstruct history. At the first
+  substantive modification, reusable validation result, or explicit decision
+  owned by a package, preview `researchctl.py event record` for that owner,
+  inspect the canonical V0 event, and repeat the same identity and times with
+  `--write`. A missing device ID must refuse the append.
+- Record once at the most specific owner. Repository-wide agent or
+  configuration-infrastructure work belongs at this root; cross-root atomic
+  work has one primary owner and lists all affected paths.
+- Keep `.research-workflow/index.sqlite3` local-only and create or update it
+  only by an explicit cache command.
+- Do not log pure Q&A, planning, read-only inspection, or failed work with no
+  durable result. Use concise English and exclude secrets, raw configuration,
+  full conversations, and unsupported conclusions.
 
-## Safety Rules
+## Validation and Completion
 
-This repository contains personal system configuration.
+Use the narrowest applicable check:
 
-- Do not delete, remove, prune, clean up, or overwrite user content without explicit approval.
-- If deletion seems necessary, list the exact path, explain why, and wait for approval.
-- Do not expose secrets, tokens, private hosts, private keys, passwords, or sync credentials from local config files.
-- Do not run `git status`, `git add`, `git commit`, or other git workflow commands unless the user explicitly asks for git work.
-- Before changing sensitive config such as SSH, rclone, proxy, cluster, or sync settings, inspect the surrounding workflow carefully.
+| Artifact | Baseline |
+| --- | --- |
+| Lua or Neovim | Existing format or syntax check; inspect module loading without changing live state |
+| Nushell | Existing Topiary path and `nu --ide-check 100` when available |
+| Topiary rules | Existing formatter tests |
+| Shell or configuration | Syntax and command-shape review without touching user data |
 
-## Validation
+Do not install missing tools or turn validation into Stow, live reload, remote
+access, or user-data writes. Re-read changed files. Finish only when rules and
+behavior agree, the required V0 event is recorded once, and the handoff
+lists changes, checks, skipped live operations, and every remaining `unknown`
+or `to-confirm` item.
+<!-- research-workflow:policy:start -->
+<!-- digest: 6e0a68425ea80ae3d662ae2adc443bc98e23190e505c8a9c36daac2c4fbbe164 -->
+## Managed Research Workflow Policy
 
-Use the narrowest useful check for the files changed.
+- `external-operations`: "Do not run cluster, simulation, MATLAB, network, sync, or Git mutations without explicit user authorization."
+- `framework-authority`: "Use only current Research Workflow V0 authorities and the unversioned CLI; obsolete V1/V2/V2.1 assets are not runtime authority."
+- `propagation`: "Default to local-first and require explicit scope approval plus a digest-bound policy apply while preserving unmanaged AGENTS text."
+- `recording`: "Use device-gated preview/write V0 events, record once at the most specific owner, and keep unsupported scientific status unknown."
+- `workspace-routing`: "Resolve registered roots through workspace.toml; keep Data read-only and access Notes only through explicit links or requests."
 
-- For Lua/Neovim changes, prefer existing Neovim/Lua formatting and check the edited module loads conceptually.
-- For Nushell changes, use the existing Topiary/Nushell formatting path when practical.
-- For Topiary changes, run the existing formatter tests if the change affects formatting rules.
-- For shell/config changes, check syntax or command shape without touching user data.
+<!-- research-workflow:policy:end -->
