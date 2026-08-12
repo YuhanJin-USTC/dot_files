@@ -1,6 +1,6 @@
 # Nushell Config File
 #
-# version = "0.104.1"
+# version = "0.114.1"
 
 source ~/.config/nushell/theme.nu
 
@@ -30,6 +30,7 @@ def alist-prod [subcommand: string ...args: string] {
   sudo -u yuhanjin alist $subcommand ...$args --data /opt/alist/data
 }
 
+# Real-only cluster shortcuts with delete semantics.
 alias ty2local = rsync -arvm --delete --include="*/" --include="*.py" --include="*.log" --include="*.sh" --exclude="*" tycluster:/work/home/yuhanjin/usr/ ~/cluster/
 
 alias wz2local = rsync -arvm --delete --include="*/" --include="*.py" --include="*.log" --include="*.sh" --exclude="*" wzcluster:/work/home/yuhanjin/usr/ ~/cluster/
@@ -51,43 +52,45 @@ def local2cluster [] {
   rsync -arvm --delete --include="*/" --include=".keep" --exclude="log_dir/*" --include="*.py" --include="*.sh" --exclude="*" ~/cluster/ wzcluster:/work/home/yuhanjin/usr/
 }
 
-alias git_update = nu ~/scripts/git_update/git_update.nu 
+alias update_git = nu ~/scripts/update/update_git.nu
 
-alias sync_files = nu ~/scripts/sync_files/sync_files.nu
+alias sync_files = nu ~/scripts/sync/sync_files.nu
 
-alias clst2win = nu ~/scripts/sync_files/cluster2windows.nu
+alias clst2win = nu ~/scripts/sync/cluster2windows.nu
 
-alias win2clst = nu ~/scripts/sync_files/windows2cluster.nu
+alias win2clst = nu ~/scripts/sync/windows2cluster.nu
 
-alias clean_files = ~/scripts/clean_files/clean_files
+alias clean_files = nu ~/scripts/clean/clean_files.nu
 
-alias bd_pic_envs = nu ~/scripts/build_singularity_image/bd_pic_envs.nu
+alias bd_pic_envs = nu ~/scripts/build_containers/pic/bd_pic_envs.nu
 
-alias bd_pic_images = nu ~/scripts/build_singularity_image/bd_pic_images.nu
+alias bd_pic_images = nu ~/scripts/build_containers/pic/bd_pic_images.nu
 
-alias test_pic_images = nu ~/scripts/build_singularity_image/test_pic_images.nu 
+alias test_pic_images = nu ~/scripts/build_containers/pic/test_pic_images.nu
 
-alias tsf_clst_key = nu ~/scripts/transfer_cluster_key/tsf_clst_key.nu
+alias bd_post_process_images = nu ~/scripts/build_containers/post_process/bd_post_process_images.nu
 
-alias backup_archlinux = bash ~/scripts/backup_archlinux/backup.sh
+alias tsf_clst_key = nu ~/scripts/transfer/tsf_clst_key.nu
 
-alias restore_archlinux = sudo bash ~/scripts/backup_archlinux/restore.sh
+alias backup_archlinux = bash ~/scripts/backup/archlinux/backup.sh
 
-alias update_archlinux = bash ~/scripts/update_archlinux/update.sh
+alias restore_archlinux = sudo bash ~/scripts/backup/archlinux/restore.sh
 
-alias asr_mt = nu ~/scripts/asr_mt_scripts/asr_mt.nu
+alias update_archlinux = bash ~/scripts/update/update_archlinux.sh
 
-alias run_smilei = bash ~/scripts/run_pic/smilei_run.sh
+alias asr_mt = nu ~/scripts/process/asr_mt.nu
 
-alias run_smilei_spin = bash ~/scripts/run_pic/smilei_spin_run.sh
+alias run_smilei = bash ~/scripts/run/run_pic.sh smilei
 
-alias run_epoch_1d = bash ~/scripts/run_pic/epoch1d_run.sh
+alias run_smilei_spin = bash ~/scripts/run/run_pic.sh smilei_spin
 
-alias run_epoch_2d = bash ~/scripts/run_pic/epoch2d_run.sh
+alias run_epoch_1d = bash ~/scripts/run/run_pic.sh epoch1d
 
-alias run_epoch_3d = bash ~/scripts/run_pic/epoch3d_run.sh
+alias run_epoch_2d = bash ~/scripts/run/run_pic.sh epoch2d
 
-alias update_iwan = ~/scripts/update_iwan_routes/update_iwan_routes
+alias run_epoch_3d = bash ~/scripts/run/run_pic.sh epoch3d
+
+alias update_iwan = bash ~/scripts/update/update_iwan_routes.sh
 
 def tonushell [] {
 
@@ -112,18 +115,11 @@ def push2github [] {
   cd ~/scripts/
 
   git push
-
-  cd ~/singularity_def_files/
-
-  git push
-
-  cd ~/Code_Program/smilei_fatido/Smilei_FaTiDo/
-
-  git push
 }
 
 def yayup [] {
 
+  # Real update without preview or confirmation.
   yay -Syu --noconfirm --verbose
 }
 

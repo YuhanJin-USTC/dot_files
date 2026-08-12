@@ -53,8 +53,10 @@ Do not move files between packages unless the user requests a layout change.
 
 ## Research Workflow Contract
 
-- Before substantive work, run the canonical `researchctl.py context` for the
-  exact target with `--recent 3 --json`, then read the bounded V0 root context.
+- For a Case target, run the canonical `researchctl.py context` with
+  `--recent 3 --json`. For this non-Case registered root, use these nearest
+  instructions and direct file evidence; the context command does not accept
+  registered roots themselves.
 - Do not create Cards or Worklogs or reconstruct history. At the first
   substantive modification, reusable validation result, or explicit decision
   owned by a package, preview `researchctl.py event record` for that owner,
@@ -63,6 +65,9 @@ Do not move files between packages unless the user requests a layout change.
 - Record once at the most specific owner. Repository-wide agent or
   configuration-infrastructure work belongs at this root; cross-root atomic
   work has one primary owner and lists all affected paths.
+- Treat aliases that call `/home/yuhanjin/scripts` as cross-root callers. Update
+  them atomically with script path or public-entry changes, and validate the
+  files without sourcing or reloading the live Nushell configuration.
 - Keep `.research-workflow/index.sqlite3` local-only and create or update it
   only by an explicit cache command.
 - Do not log pure Q&A, planning, read-only inspection, or failed work with no

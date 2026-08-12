@@ -1,7 +1,7 @@
 # Default Nushell Environment Config File
 # These "sensible defaults" are set before the user's `env.nu` is loaded
 #
-# version = "0.104.1"
+# version = "0.114.1"
 
 $env.PROMPT_COMMAND = {||
   let dir = match (do -i { $env.PWD | path relative-to $env.HOME }) {
@@ -40,5 +40,4 @@ $env.PROMPT_COMMAND_RIGHT = {||
 }
 
 $env.PATH = ($env.PATH | prepend '/home/yuhanjin/.local/bin')
-$env.PATH = ($env.PATH | prepend '/home/yuhanjin/scripts/singularity_def_fmt')
 $env.PATH = ($env.PATH | prepend ($".venv/bin" | path expand))
