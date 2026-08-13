@@ -90,6 +90,8 @@ alias run_epoch_2d = bash ~/scripts/run/run_pic.sh epoch2d
 
 alias run_epoch_3d = bash ~/scripts/run/run_pic.sh epoch3d
 
+alias run_jupyter = bash ~/scripts/run/run_jupyter.sh
+
 alias update_iwan = bash ~/scripts/update/update_iwan_routes.sh
 
 def tonushell [] {
