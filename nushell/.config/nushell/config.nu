@@ -37,21 +37,6 @@ alias wz2local = rsync -arvm --delete --include="*/" --include="*.py" --include=
 
 alias hf2local = rsync -arvm --delete --include="*/" --include="*.py" --include="*.log" --include="*.sh" --exclude="*" hfcluster:/public/home/yuhanjin/usr/ ~/cluster/
 
-def local2cluster [] {
-
-  print "sync to HF cluster"
-
-  rsync -arvm --delete --include="*/" --include=".keep" --exclude="log_dir/*" --include="*.py" --include="*.sh" --exclude="*" ~/cluster/ hfcluster:/public/home/yuhanjin/usr/
-
-  print "sync to TY cluster"
-
-  rsync -arvm --delete --include="*/" --include=".keep" --exclude="log_dir/*" --include="*.py" --include="*.sh" --exclude="*" ~/cluster/ tycluster:/work/home/yuhanjin/usr/
-
-  print "sync to WZ cluster"
-
-  rsync -arvm --delete --include="*/" --include=".keep" --exclude="log_dir/*" --include="*.py" --include="*.sh" --exclude="*" ~/cluster/ wzcluster:/work/home/yuhanjin/usr/
-}
-
 alias update_git = nu ~/scripts/update/update_git.nu
 
 alias sync_files = nu ~/scripts/sync/sync_files.nu
@@ -106,17 +91,6 @@ def tonvim [] {
   cd ~/.config/nvim
 
   nvim
-}
-
-def push2github [] {
-
-  cd ~/dot_files/
-
-  git push
-
-  cd ~/scripts/
-
-  git push
 }
 
 def yayup [] {
