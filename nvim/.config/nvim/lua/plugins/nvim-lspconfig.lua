@@ -262,20 +262,12 @@ return {
       require('mason-lspconfig').setup {
         ensure_installed = {},
         automatic_enable = false,
-        automatic_installation = false,
-        handlers = {
-          function(server_name)
-            if server_name == 'stylua' then
-              return
-            end
-
-            local server_config = servers[server_name] or {}
-            -- 将 blink.cmp 的 capabilities 合并到配置中
-            server_config.capabilities = require('blink.cmp').get_lsp_capabilities(server_config.capabilities)
-            require('lspconfig')[server_name].setup(server_config)
-          end,
-        },
       }
+      for server_name, server_config in pairs(servers) do
+        server_config.capabilities = require('blink.cmp').get_lsp_capabilities(server_config.capabilities)
+        vim.lsp.config(server_name, server_config)
+        vim.lsp.enable(server_name)
+      end
     end,
   },
 }

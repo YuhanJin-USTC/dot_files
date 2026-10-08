@@ -123,7 +123,7 @@ return {
           expandable_indicator = true,
           format = lspkind.cmp_format {
             mode = 'symbol_text',
-            memu = {
+            menu = {
               buffer = '[Buffer]',
               nvim_lsp = '[LSP]',
               path = '[Path]',

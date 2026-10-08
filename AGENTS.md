@@ -38,6 +38,10 @@ Do not move files between packages unless the user requests a layout change.
   tool behavior; prefer short English. Short Chinese comments remain acceptable
   when they match nearby text or clarify a local research workflow. Avoid
   tutorials, narration, and restating code.
+- Keep Neovim Treesitter on the explicit `main` branch and reconcile installed
+  plugins with `lazy-lock.json` before changing configuration for API errors.
+- Configure and enable language servers with `vim.lsp.config` and
+  `vim.lsp.enable`; do not use the removed Mason LSP v1 handler API.
 
 ## Safety
 
@@ -88,6 +92,12 @@ access, or user-data writes. Re-read changed files. Finish only when rules and
 behavior agree, the required V0 event is recorded once, and the handoff
 lists changes, checks, skipped live operations, and every remaining `unknown`
 or `to-confirm` item.
+
+Validate Neovim with the real executable and plugin modules in temporary XDG
+directories. Disable installation and network side effects in test copies;
+do not replace plugin APIs with mocks when checking compatibility.
+Check both Treesitter captures and Vim syntax fallback, including Git and SSH
+configuration files; a running parser alone does not prove highlighting works.
 <!-- research-workflow:policy:start -->
 <!-- digest: 53b828bcd3473143cd53c8eb3790393d6fec47f065abe2b14e0e167f32b593b7 -->
 ## Managed Research Workflow Policy

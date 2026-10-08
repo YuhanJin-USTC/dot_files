@@ -17,8 +17,9 @@ local parsers = {
 
 return {
   {
-    -- Nvim 0.12 API
+    -- Treesitter main API
     'nvim-treesitter/nvim-treesitter',
+    branch = 'main',
     lazy = false,
     build = ':TSUpdate',
 
@@ -39,7 +40,15 @@ return {
       -- Use built-in highlighter
       vim.api.nvim_create_autocmd('FileType', {
         callback = function(args)
-          pcall(vim.treesitter.start, args.buf)
+          local lang = vim.treesitter.language.get_lang(args.match) or args.match
+          local ok, query = pcall(vim.treesitter.query.get, lang, 'highlights')
+          if ok and query and pcall(vim.treesitter.start, args.buf, lang) then
+            return
+          end
+
+          -- Fall back to Vim syntax
+          vim.treesitter.stop(args.buf)
+          vim.bo[args.buf].syntax = args.match
         end,
       })
     end,

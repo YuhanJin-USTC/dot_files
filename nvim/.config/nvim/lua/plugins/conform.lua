@@ -39,6 +39,8 @@ return {
         cpp = { 'clang_format' },
         python = { 'isort', 'black' },
         latex = { 'latexindent' },
+        tex = { 'latexindent' },
+        plaintex = { 'latexindent' },
         nu = { 'topiary' },
         def = { 'def_fmt' },
         sh = { 'shfmt_format' },
