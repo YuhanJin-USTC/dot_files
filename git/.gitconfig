@@ -5,9 +5,9 @@
 	editor = nvim
 	sshCommand = ssh -F ~/.ssh/config
 [http]
-	# proxy = http://127.0.0.1:7890
+	proxy = http://127.0.0.1:7890
 [https]
-	# proxy = https://127.0.0.1:7890
+	proxy = https://127.0.0.1:7890
 [github]
 	user = YuhanJin-USTC
 [init]
