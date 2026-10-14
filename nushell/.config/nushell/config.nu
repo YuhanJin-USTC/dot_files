@@ -45,6 +45,10 @@ alias clst2win = nu ~/scripts/sync/cluster2windows.nu
 
 alias win2clst = nu ~/scripts/sync/windows2cluster.nu
 
+alias fclst2win = nu ~/scripts/sync/fast_cluster2windows.nu
+
+alias fwin2clst = nu ~/scripts/sync/fast_windows2cluster.nu
+
 alias clean_files = nu ~/scripts/clean/clean_files.nu
 
 alias bd_pic_envs = nu ~/scripts/build_containers/pic/bd_pic_envs.nu
