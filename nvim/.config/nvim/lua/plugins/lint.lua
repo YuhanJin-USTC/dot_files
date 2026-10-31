@@ -5,6 +5,22 @@ return {
     event = { 'BufReadPre', 'BufNewFile' },
     config = function()
       local lint = require 'lint'
+      local clangtidy = lint.linters.clangtidy
+      lint.linters.clangtidy = function()
+        local config = vim.deepcopy(clangtidy)
+        config.ignore_exitcode = false
+        local directory = vim.fs.dirname(vim.api.nvim_buf_get_name(0))
+        while directory do
+          local stat, _, code = vim.uv.fs_lstat(directory .. '/.clang-tidy')
+          -- Existing, broken or inaccessible project rules take precedence.
+          if stat or (code and code ~= 'ENOENT') then return config end
+          local parent = vim.fs.dirname(directory)
+          if parent == directory then break end
+          directory = parent
+        end
+        table.insert(config.args, '--checks=clang-analyzer-*')
+        return config
+      end
       lint.linters_by_ft = {
         markdown = { 'markdownlint' },
         c = { 'clangtidy' },

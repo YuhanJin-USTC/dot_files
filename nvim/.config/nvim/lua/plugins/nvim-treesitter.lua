@@ -15,6 +15,10 @@ local parsers = {
   'vimdoc',
 }
 
+if vim.env.NVIM_MANAGED_GENERATION then
+  vim.list_extend(parsers, { 'cpp', 'git_config', 'git_rebase', 'gitignore', 'make', 'matlab', 'powershell', 'ssh_config', 'latex' })
+end
+
 return {
   {
     -- Treesitter main API
@@ -23,7 +27,8 @@ return {
     lazy = false,
     build = ':TSUpdate',
 
-    config = function()
+    opts = { parsers = parsers },
+    config = function(_, opts)
       -- Nushell files
       vim.filetype.add {
         extension = {
@@ -35,7 +40,9 @@ return {
         install_dir = vim.fn.stdpath('data') .. '/site',
       }
 
-      require('nvim-treesitter').install(parsers)
+      if not vim.env.NVIM_MANAGED_GENERATION then
+        require('nvim-treesitter').install(opts.parsers)
+      end
 
       -- Use built-in highlighter
       vim.api.nvim_create_autocmd('FileType', {

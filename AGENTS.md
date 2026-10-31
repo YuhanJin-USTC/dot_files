@@ -43,6 +43,30 @@ Do not move files between packages unless the user requests a layout change.
 - Configure and enable language servers with `vim.lsp.config` and
   `vim.lsp.enable`; do not use the removed Mason LSP v1 handler API.
 
+## Managed Neovim
+
+- Prepare a complete configuration copy inside each isolated candidate; do not
+  validate a partially applied per-file Stow transition. Keep explicit shared
+  `plugin_specs` as the only plugin inventory, without directory-wide imports.
+- Managed startup must not bootstrap Lazy, install missing plugins/parsers,
+  refresh Mason registries, or download packages/rocks. Candidate preparation
+  and explicit activation are separate; retain old and failed generations.
+- Keep blink as the selected completion backend. Legacy cmp source/cache may
+  remain as user content but must not load through the active plugin inventory.
+- Markdown renders in normal mode and exposes source in insert mode; retain
+  `<leader>tm`. The limited Unicode math path uses `latex2text` from the system
+  `python-pylatexenc` dependency. Do not introduce TeX, uv or pipx installation.
+- Preserve all original parser languages plus latex (23 total), grammar revisions
+  and native/site hashes. Rebuild for ABI changes only inside candidates; retain
+  old artifacts and check actual highlight captures and syntax fallbacks.
+- Jukit uses `/usr/bin/python3` and `/usr/bin/ipython3` with Arch `python-pynvim`,
+  `ipython`, `python-matplotlib`, `python-pylatexenc`; no `~/base` replacement env.
+  Require real provider, cell edit/run, saved-output and conversion checks.
+- Keep clangd/pylsp/clang-format/stylua in the original Mason root. Reconstruction
+  uses fixed recorded sources/versions through the sole public `nvim_state.py`
+  interface and internal `mason_tools.py`, with separate network/build approval.
+  Do not silently select latest or expand into browser/HTML/PDF/image features.
+
 ## Safety
 
 - Do not delete, prune, clean, move, or overwrite user content without approval
@@ -99,12 +123,12 @@ do not replace plugin APIs with mocks when checking compatibility.
 Check both Treesitter captures and Vim syntax fallback, including Git and SSH
 configuration files; a running parser alone does not prove highlighting works.
 <!-- research-workflow:policy:start -->
-<!-- digest: 53b828bcd3473143cd53c8eb3790393d6fec47f065abe2b14e0e167f32b593b7 -->
+<!-- digest: 89d09a6994f49df8c13b524a2af6ad0acf361194fc848c001cb517be1ee3a44f -->
 ## Managed Research Workflow Policy
 
 - `case-confirmation`: "A Case target does not imply a Case edit. For explicit registration or simulation-definition changes, finish files/checks, show the saved preview, actually ask and await the user, then apply the exact plan. A digest is not consent; unchanged accepted definitions add no revision."
 - `external-operations`: "Do not run cluster, simulation, MATLAB, network, sync, build, or Git mutations without explicit user authorization."
-- `framework-authority`: "Use Research Workflow 0.2.3 and the unversioned researchctl CLI. Preserve journal-only Case authority, original Event fields, historical migrate/tombstone bindings, immutable streams, and fail-closed forks."
+- `framework-authority`: "Use Research Workflow 0.2.4 and the unversioned researchctl CLI. Preserve journal-only Case authority, original Event fields, historical migrate/tombstone bindings, immutable streams, and fail-closed forks."
 - `indexing`: "Treat SQLite and saved plans as device-local derived state. Queries may refresh the disposable index; never synchronize it or use it as authority."
 - `multi-device`: "Synchronize and check portable authority before context or any portable write after switching devices, including event-only work. Keep local TOML/device/paths, upgrade devices sequentially, and stop old metadata writers until local acceptance. External sync remains separately authorized."
 - `propagation`: "Preview pending policy semantics, exact targets and differences; obtain real user approval of the stable digest, record it through policy approve, then apply. Preserve cumulative device approvals and unmanaged AGENTS bytes; Data/Notes and body patches require exact separate scope."

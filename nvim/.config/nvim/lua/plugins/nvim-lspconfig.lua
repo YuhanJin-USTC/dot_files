@@ -256,13 +256,19 @@ return {
         'clang-format',
         -- 'typstyle',
       })
-      require('mason-tool-installer').setup { ensure_installed = ensure_installed }
+      require('mason-tool-installer').setup {
+        ensure_installed = ensure_installed,
+        run_on_start = not vim.env.NVIM_MANAGED_GENERATION,
+      }
 
       -- Enable lsp settings
-      require('mason-lspconfig').setup {
-        ensure_installed = {},
-        automatic_enable = false,
-      }
+      -- Managed tools are installed separately.
+      if not vim.env.NVIM_MANAGED_GENERATION then
+        require('mason-lspconfig').setup {
+          ensure_installed = {},
+          automatic_enable = false,
+        }
+      end
       for server_name, server_config in pairs(servers) do
         server_config.capabilities = require('blink.cmp').get_lsp_capabilities(server_config.capabilities)
         vim.lsp.config(server_name, server_config)

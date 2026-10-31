@@ -15,7 +15,7 @@ return {
     },
     init = function()
       vim.g.jukit_mappings = 1
-      vim.g.jukit_shell_cmd= '~/base/bin/ipython3'
+      vim.g.jukit_shell_cmd = '/usr/bin/ipython3'
       vim.g.jukit_mappings_ext_enabled = 'py'
     end,
   },

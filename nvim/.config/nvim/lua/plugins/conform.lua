@@ -61,6 +61,15 @@ return {
         topiary = {
           command = 'topiary',
           args = { 'format', '--language', 'nu' },
+          env = function()
+            return {
+              XDG_CACHE_HOME = vim.env.NVIM_EXTERNAL_CACHE_HOME
+                or (not vim.env.NVIM_MANAGED_GENERATION and vim.env.XDG_CACHE_HOME)
+                or vim.env.HOME .. '/.cache',
+              TOPIARY_CONFIG_FILE = vim.env.TOPIARY_CONFIG_FILE or vim.env.HOME .. '/.config/topiary/languages.ncl',
+              TOPIARY_LANGUAGE_DIR = vim.env.TOPIARY_LANGUAGE_DIR or vim.env.HOME .. '/.config/topiary/languages',
+            }
+          end,
           stdin = true,
         },
         shfmt_format = {
