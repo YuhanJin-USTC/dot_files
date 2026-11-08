@@ -2,14 +2,7 @@
 
 ## Scope
 
-These instructions apply to `/home/yuhanjin/dot_files`. Explicit user
-instructions take priority within the authorized scope. Keep shared rules here;
-add no nested `AGENTS.md` unless a package gains a durable local difference.
-
-This personal Stow repository should reduce friction in laser-plasma theory,
-PIC simulation, cluster or container use, and daily editing or shell work. Its
-tools include Smilei, EPOCH, WarpX, FaTiDo, Geant4,
-Apptainer/Singularity, Neovim, Nushell, and HPC systems.
+Keep shared Stow rules at this root. Add a package AGENTS.md only for approved durable local differences.
 
 ## Layout
 
@@ -74,31 +67,12 @@ Do not move files between packages unless the user requests a layout change.
 - Do not expose secrets, tokens, private hosts, keys, passwords, or sync
   credentials. Read sensitive values only when necessary and keep them out of
   commands, logs, and responses.
-- Do not run Git commands unless the user explicitly requests Git work.
-- Inspect SSH, rclone, proxy, cluster, and sync workflows before changing them.
-  Do not run Stow, reload live configuration, contact remote systems, or apply
-  system changes merely to validate an edit.
+- Git, Stow, isolated Git/Stow fixtures, live reloads, remote operations and system changes require current-task authorization. Inspect SSH, rclone, proxy, cluster and sync callers statically first.
 
-## Research Workflow Contract
+## Research Workflow
 
-- Restore compact memory with `researchctl.py context root:dot_files --json`
-  or the exact package owner. Root/path selection is exact by default; use
-  `--recursive` only for an intended subtree. Then read necessary direct evidence.
-- Do not create Cards, Worklogs, empty research membership or invented history.
-  Record a substantive package result once with an event-only checkpoint at
-  that exact owner; include purpose, verified result, accepted reasons, checks
-  and limits where known. Configured and registered device identity is required.
-- Record once at the most specific owner. Repository-wide agent or
-  configuration-infrastructure work belongs at this root; cross-root atomic
-  work has one primary owner and lists all affected paths.
-- Treat aliases that call `/home/yuhanjin/scripts` as cross-root callers. Update
-  them atomically with script path or public-entry changes, and validate the
-  files without sourcing or reloading the live Nushell configuration.
-- Keep `.research-workflow/index.sqlite3` local and non-authoritative; context
-  queries may transparently create or refresh this derived cache.
-- Do not log pure Q&A, planning, read-only inspection, or failed work with no
-  durable result. Use concise English and exclude secrets, raw configuration,
-  full conversations, and unsupported conclusions.
+- Use `python3 -B /home/yuhanjin/Research_Workflow/tools/researchctl.py context root:dot_files --view compact --json` or the exact package owner. Record one substantive result. For cross-root work list the affected paths at one owner.
+- Check aliases in nushell/.config/nushell/config.nu against their scripts entry points. Coordinate changes atomically when both roots are in scope. Validate without sourcing live configuration. Topiary tests use test/temp.nu and --update may rewrite expected output. Verify ownership and authorization before using either.
 
 ## Validation and Completion
 
@@ -123,16 +97,16 @@ do not replace plugin APIs with mocks when checking compatibility.
 Check both Treesitter captures and Vim syntax fallback, including Git and SSH
 configuration files; a running parser alone does not prove highlighting works.
 <!-- research-workflow:policy:start -->
-<!-- digest: 89d09a6994f49df8c13b524a2af6ad0acf361194fc848c001cb517be1ee3a44f -->
+<!-- digest: 255425630765de0b777c8b315a1469fc936fca419187535850dcd16888fc5f5d -->
 ## Managed Research Workflow Policy
 
-- `case-confirmation`: "A Case target does not imply a Case edit. For explicit registration or simulation-definition changes, finish files/checks, show the saved preview, actually ask and await the user, then apply the exact plan. A digest is not consent; unchanged accepted definitions add no revision."
-- `external-operations`: "Do not run cluster, simulation, MATLAB, network, sync, build, or Git mutations without explicit user authorization."
-- `framework-authority`: "Use Research Workflow 0.2.4 and the unversioned researchctl CLI. Preserve journal-only Case authority, original Event fields, historical migrate/tombstone bindings, immutable streams, and fail-closed forks."
-- `indexing`: "Treat SQLite and saved plans as device-local derived state. Queries may refresh the disposable index; never synchronize it or use it as authority."
-- `multi-device`: "Synchronize and check portable authority before context or any portable write after switching devices, including event-only work. Keep local TOML/device/paths, upgrade devices sequentially, and stop old metadata writers until local acceptance. External sync remains separately authorized."
-- `propagation`: "Preview pending policy semantics, exact targets and differences; obtain real user approval of the stable digest, record it through policy approve, then apply. Preserve cumulative device approvals and unmanaged AGENTS bytes; Data/Notes and body patches require exact separate scope."
-- `recording`: "Restore bounded Case, Study, Project, or exact root/path memory. Record one substantive result as an event at the most specific owner; retain purpose, result, accepted reasons, validation level and limits in existing summary/evidence. Do not log ordinary Q&A or create empty membership or pending queues."
-- `workspace-routing`: "Resolve local access through verified roots and explicit mappings. Logical memory may be queried without a local mapping, but new writes require local registration. Keep Data read-only and Notes access within exact authorized links/sections."
+- `case-confirmation`: "Case ownership alone changes no definition. For registration, definition or lifecycle changes, finish files/checks, show the saved plan, ask and await consent, then apply its digest. Equal definitions add no revision."
+- `external-operations`: "Require explicit task authorization for Git, network/API, SSH, cluster, transfer, sync, simulation, MATLAB, builds, containers and SIF operations."
+- `framework-authority`: "Use Research Workflow 0.2.4 and its unversioned CLI. Preserve journal-only Cases, original Event fields, migrate/tombstone bindings and immutable streams. Stop on forks."
+- `indexing`: "SQLite and saved plans are disposable device-local state. Queries may refresh SQLite. Never sync either or use it as authority."
+- `multi-device`: "After a switch, preserve local work and separately authorize sync. Check portable authority with doctor, event merge and validate before context or any portable write. Keep TOML, paths and identity local. Upgrade sequentially with old writers stopped through acceptance."
+- `propagation`: "Show pending semantics, exact targets, diffs and stable digest. After user approval, record it with policy approve and apply that digest. Preserve cumulative approvals and unmanaged bytes. Data, Notes and body patches need separate exact scope."
+- `recording`: "Restore compact Case, Study, Project or exact root/path context. Record one substantive result at its closest eligible owner, with purpose, result, accepted reasons, checks and limits in summary/evidence. Skip ordinary discussion, empty membership and pending queues."
+- `workspace-routing`: "Use verified roots and explicit mappings. Unmapped logical memory is readable. Local access and new writes need registration. Data stays read-only. Scope Notes to exact links/sections and writes to explicit requests."
 
 <!-- research-workflow:policy:end -->
