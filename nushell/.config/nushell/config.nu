@@ -99,6 +99,20 @@ def tonvim [] {
   nvim
 }
 
+def tonotes [] {
+
+  cd `/mnt/c/Users/17865/Desktop/Laser Plasma/Notes`
+
+  nvim
+}
+
+def tomatlab [] {
+
+  cd /mnt/d/Document/MATLAB/Matlab/
+
+  nvim
+}
+
 def yayup [] {
 
   # Real update without preview or confirmation.
